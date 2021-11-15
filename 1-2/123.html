@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warp {
+            width: 400px;
+            height: 200px;
+            position: relative;
+        }
+        .list {
+            width: 400px;
+            height: 200px;
+            list-style: none;
+            padding-left: 0px;
+        }
+        .item {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .img{
+            width: 400px;
+            height: 200px;
+        }
+        .btn{
+            position: absolute;
+            width: 30px;
+            height: 100px;
+            top:50px;
+            z-index: 100;
+        }
+        #goPre{
+            left: 0px;
+        }
+        #goNext{
+            right: 0px;
+        }
+        .item.active{
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp">
+        <ul class="list">
+            <li class="item active"><img src="img/img_1.jpg" class="img"></li>
+            <li class="item"><img src="img/img_2.jpg" class="img"></li>
+            <li class="item"><img src="img/img_3.jpg" class="img"></li>
+            <li class="item"><img src="img/img_4.jpg" class="img"></li>
+        </ul>
+        <button type="button" class="btn" id="goPre"> < </button>
+        <button type="button" class="btn" id="goNext"> > </button>
+    </div>
+    <script>
+        var items=document.getElementsByClassName('itam');
+        var goPrebtn=document.getElementById('goPre');
+        var goNextbtn=document.getElementById('goNext');
+
+        
+        var index=0;//用来看当前的图片是第几张 确认存不存在active这个类
+
+        var clearActive=function(){
+            for(var i=0;i<items.length;i++){
+                items[i].className='item';
+            }
+        }
+        
+        var goindex=function(){
+            clearActive();
+            items[index].className="item active";
+        }
+
+        var goNext=function(){
+            index++;
+            goindex();
+        }
+        goNextbtn.addEventListener('click',function(){
+            goNext();
+        })
+
+        
+    </script>
+</body>
+</html>
