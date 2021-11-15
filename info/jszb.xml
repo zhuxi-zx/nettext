@@ -1,0 +1,313 @@
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-11-05 13:52 CST
+Nmap scan report for 172.16.29.1
+Host is up (0.0058s latency).
+MAC Address: 00:03:0F:40:30:8A (Digital China (Shanghai) Networks)
+Nmap scan report for 172.16.29.2
+Host is up (0.0010s latency).
+MAC Address: BC:D1:77:45:2F:23 (Tp-link Technologies)
+Nmap scan report for 172.16.29.3
+Host is up (0.00075s latency).
+MAC Address: FC:D7:33:B6:26:83 (Tp-link Technologies)
+Nmap scan report for 172.16.29.4
+Host is up (0.0013s latency).
+MAC Address: A0:D3:C1:29:92:3F (Hewlett Packard)
+Nmap scan report for 172.16.29.5
+Host is up (0.0011s latency).
+MAC Address: 6C:3B:E5:0F:8E:DF (Hewlett Packard)
+Nmap scan report for 172.16.29.6
+Host is up (0.0011s latency).
+MAC Address: 94:DE:80:13:A8:6F (Giga-byte Technology)
+Nmap scan report for 172.16.29.7
+Host is up (0.00091s latency).
+MAC Address: 70:85:C2:80:15:60 (ASRock Incorporation)
+Nmap scan report for 172.16.29.9
+Host is up (0.00054s latency).
+MAC Address: 2C:41:38:AA:C2:4F (Hewlett Packard)
+Nmap scan report for 172.16.29.10
+Host is up (0.0020s latency).
+MAC Address: 88:51:FB:6D:5E:1C (Hewlett Packard)
+Nmap scan report for 172.16.29.12
+Host is up (0.0016s latency).
+MAC Address: 2C:44:FD:13:46:2A (Hewlett Packard)
+Nmap scan report for 172.16.29.14
+Host is up (0.0011s latency).
+MAC Address: 74:D4:35:C8:9E:5C (Giga-byte Technology)
+Nmap scan report for 172.16.29.15
+Host is up (0.00084s latency).
+MAC Address: 88:51:FB:4E:FA:ED (Hewlett Packard)
+Nmap scan report for 172.16.29.17
+Host is up (0.0018s latency).
+MAC Address: 88:51:FB:4E:FB:FE (Hewlett Packard)
+Nmap scan report for 172.16.29.19
+Host is up (0.0011s latency).
+MAC Address: 6C:3B:E5:0B:EA:7B (Hewlett Packard)
+Nmap scan report for 172.16.29.20
+Host is up (0.00098s latency).
+MAC Address: F0:92:1C:EE:21:C0 (Hewlett Packard)
+Nmap scan report for 172.16.29.21
+Host is up (0.00092s latency).
+MAC Address: 2C:44:FD:0D:A8:9F (Hewlett Packard)
+Nmap scan report for 172.16.29.22
+Host is up (0.00087s latency).
+MAC Address: D0:C7:C0:85:16:07 (Tp-link Technologies)
+Nmap scan report for 172.16.29.23
+Host is up (0.0015s latency).
+MAC Address: 6C:3B:E5:0F:8F:27 (Hewlett Packard)
+Nmap scan report for 172.16.29.24
+Host is up (0.00079s latency).
+MAC Address: 00:D0:B8:0D:11:97 (Iomega)
+Nmap scan report for 172.16.29.25
+Host is up (0.22s latency).
+MAC Address: 38:FC:98:19:AE:6A (Unknown)
+Nmap scan report for 172.16.29.26
+Host is up (0.10s latency).
+MAC Address: B0:60:88:C8:FE:EC (Unknown)
+Nmap scan report for 172.16.29.28
+Host is up (0.082s latency).
+MAC Address: 74:4C:A1:DF:6A:D5 (Unknown)
+Nmap scan report for 172.16.29.29
+Host is up (0.037s latency).
+MAC Address: A4:50:46:11:D3:75 (Unknown)
+Nmap scan report for 172.16.29.30
+Host is up (0.0011s latency).
+MAC Address: 94:DE:80:5E:8F:A7 (Giga-byte Technology)
+Nmap scan report for 172.16.29.31
+Host is up (0.0016s latency).
+MAC Address: 6C:3B:E5:0F:D8:98 (Hewlett Packard)
+Nmap scan report for 172.16.29.32
+Host is up (0.0011s latency).
+MAC Address: 2C:44:FD:0B:74:20 (Hewlett Packard)
+Nmap scan report for 172.16.29.33
+Host is up (0.0010s latency).
+MAC Address: 88:51:FB:4E:FA:DF (Hewlett Packard)
+Nmap scan report for 172.16.29.34
+Host is up (0.00100s latency).
+MAC Address: 00:0C:29:CA:AD:B2 (VMware)
+Nmap scan report for 172.16.29.35
+Host is up (0.00094s latency).
+MAC Address: 00:0C:29:63:A2:8B (VMware)
+Nmap scan report for 172.16.29.36
+Host is up (0.00090s latency).
+MAC Address: 1C:C1:DE:33:EE:CF (Hewlett Packard)
+Nmap scan report for 172.16.29.37
+Host is up (0.078s latency).
+MAC Address: C4:23:60:F7:F4:36 (Unknown)
+Nmap scan report for 172.16.29.38
+Host is up (0.00081s latency).
+MAC Address: 10:60:4B:87:8E:D6 (Hewlett Packard)
+Nmap scan report for 172.16.29.39
+Host is up (0.0025s latency).
+MAC Address: F0:92:1C:F0:00:53 (Hewlett Packard)
+Nmap scan report for 172.16.29.40
+Host is up (0.0011s latency).
+MAC Address: A0:D3:C1:24:5D:3F (Hewlett Packard)
+Nmap scan report for 172.16.29.41
+Host is up (0.015s latency).
+MAC Address: 94:E6:F7:F8:87:AC (Unknown)
+Nmap scan report for 172.16.29.42
+Host is up (0.00095s latency).
+MAC Address: 00:0C:29:4A:93:95 (VMware)
+Nmap scan report for 172.16.29.43
+Host is up (0.0015s latency).
+MAC Address: 6C:3B:E5:0B:EA:20 (Hewlett Packard)
+Nmap scan report for 172.16.29.44
+Host is up (0.00078s latency).
+MAC Address: 90:2E:16:52:6F:E0 (Unknown)
+Nmap scan report for 172.16.29.45
+Host is up (0.0014s latency).
+MAC Address: 74:46:A0:90:58:64 (Hewlett Packard)
+Nmap scan report for 172.16.29.47
+Host is up (0.00069s latency).
+MAC Address: D8:50:E6:D2:3A:BF (Asustek Computer)
+Nmap scan report for 172.16.29.48
+Host is up (0.012s latency).
+MAC Address: 40:E2:30:E0:E9:EB (AzureWave Technology)
+Nmap scan report for 172.16.29.49
+Host is up (0.00060s latency).
+MAC Address: 10:60:4B:61:E7:DB (Hewlett Packard)
+Nmap scan report for 172.16.29.50
+Host is up (0.00056s latency).
+MAC Address: 00:25:11:32:C9:16 (Elitegroup Computer Systems)
+Nmap scan report for 172.16.29.51
+Host is up (0.015s latency).
+MAC Address: D0:AB:D5:BC:A2:55 (Unknown)
+Nmap scan report for 172.16.29.52
+Host is up (0.00047s latency).
+MAC Address: 8C:16:45:B4:3B:E8 (Unknown)
+Nmap scan report for 172.16.29.53
+Host is up (0.0011s latency).
+MAC Address: 6C:3B:E5:0B:E6:2B (Hewlett Packard)
+Nmap scan report for 172.16.29.55
+Host is up (0.0018s latency).
+MAC Address: 6C:3B:E5:0F:9C:87 (Hewlett Packard)
+Nmap scan report for 172.16.29.58
+Host is up (0.0023s latency).
+MAC Address: 6C:3B:E5:0F:E6:F5 (Hewlett Packard)
+Nmap scan report for 172.16.29.59
+Host is up (0.0010s latency).
+MAC Address: 6C:3B:E5:0B:E7:06 (Hewlett Packard)
+Nmap scan report for 172.16.29.60
+Host is up (0.0045s latency).
+MAC Address: 94:53:30:73:B3:D5 (Hon Hai Precision Ind.)
+Nmap scan report for 172.16.29.61
+Host is up (0.00079s latency).
+MAC Address: 6C:3B:E5:0B:E5:D7 (Hewlett Packard)
+Nmap scan report for 172.16.29.62
+Host is up (0.029s latency).
+MAC Address: 58:A0:23:D3:C3:0E (Unknown)
+Nmap scan report for 172.16.29.63
+Host is up (0.00039s latency).
+MAC Address: 3C:7C:3F:5B:57:10 (Unknown)
+Nmap scan report for 172.16.29.65
+Host is up (0.00092s latency).
+MAC Address: 9C:7B:EF:44:19:66 (Unknown)
+Nmap scan report for 172.16.29.66
+Host is up (0.0015s latency).
+MAC Address: E8:6A:64:E9:77:A6 (Unknown)
+Nmap scan report for 172.16.29.68
+Host is up (0.00063s latency).
+MAC Address: BC:EE:7B:5B:A5:03 (Asustek Computer)
+Nmap scan report for 172.16.29.69
+Host is up (0.0013s latency).
+MAC Address: 00:E0:4C:36:00:BD (Realtek Semiconductor)
+Nmap scan report for 172.16.29.70
+Host is up (0.00044s latency).
+MAC Address: 7C:10:C9:AC:C6:1F (Unknown)
+Nmap scan report for 172.16.29.71
+Host is up (0.0011s latency).
+MAC Address: 00:E0:4D:68:00:78 (Internet Initiative Japan)
+Nmap scan report for 172.16.29.72
+Host is up (0.0010s latency).
+MAC Address: F8:E4:3B:2C:70:EF (Unknown)
+Nmap scan report for 172.16.29.73
+Host is up (0.00097s latency).
+MAC Address: 00:2B:67:39:5D:45 (Unknown)
+Nmap scan report for 172.16.29.74
+Host is up (0.00087s latency).
+MAC Address: 6C:3B:E5:2A:86:BD (Hewlett Packard)
+Nmap scan report for 172.16.29.75
+Host is up (0.00080s latency).
+MAC Address: 00:E0:4C:68:16:51 (Realtek Semiconductor)
+Nmap scan report for 172.16.29.76
+Host is up (0.0018s latency).
+MAC Address: 00:E0:4C:36:07:02 (Realtek Semiconductor)
+Nmap scan report for 172.16.29.78
+Host is up (0.0015s latency).
+MAC Address: D4:C9:EF:EF:E7:E2 (Hewlett Packard)
+Nmap scan report for 172.16.29.79
+Host is up (0.0022s latency).
+MAC Address: 00:E0:99:00:05:FE (Samson AG)
+Nmap scan report for 172.16.29.80
+Host is up (0.0095s latency).
+MAC Address: F8:B4:6A:D7:FA:21 (Unknown)
+Nmap scan report for 172.16.29.81
+Host is up (0.0014s latency).
+MAC Address: 70:85:C2:80:14:DE (ASRock Incorporation)
+Nmap scan report for 172.16.29.83
+Host is up (0.00092s latency).
+MAC Address: 40:A8:F0:4C:29:B9 (Hewlett Packard)
+Nmap scan report for 172.16.29.84
+Host is up (0.36s latency).
+MAC Address: 6C:94:66:F8:0B:EC (Unknown)
+Nmap scan report for 172.16.29.85
+Host is up (0.0091s latency).
+MAC Address: 40:F0:2F:50:54:DE (Liteon Technology)
+Nmap scan report for 172.16.29.87
+Host is up (0.00084s latency).
+MAC Address: FC:34:97:94:1B:B6 (Unknown)
+Nmap scan report for 172.16.29.89
+Host is up (0.00013s latency).
+MAC Address: 00:24:32:23:B5:B0 (Neostar Technology)
+Nmap scan report for 172.16.29.90
+Host is up (0.36s latency).
+MAC Address: BE:AA:DC:9E:C8:F5 (Unknown)
+Nmap scan report for 172.16.29.92
+Host is up (0.0023s latency).
+MAC Address: 2C:44:FD:0D:A5:32 (Hewlett Packard)
+Nmap scan report for 172.16.29.93
+Host is up (0.00081s latency).
+MAC Address: F8:75:A4:24:D4:49 (Unknown)
+Nmap scan report for 172.16.29.94
+Host is up (0.00069s latency).
+MAC Address: 10:60:4B:87:8E:5B (Hewlett Packard)
+Nmap scan report for 172.16.29.95
+Host is up (0.00055s latency).
+MAC Address: 8C:8C:AA:48:F3:11 (Unknown)
+Nmap scan report for 172.16.29.96
+Host is up (0.36s latency).
+MAC Address: 14:5A:FC:1F:CB:71 (Unknown)
+Nmap scan report for 172.16.29.97
+Host is up (0.0015s latency).
+MAC Address: 00:0C:29:6F:AC:1E (VMware)
+Nmap scan report for 172.16.29.98
+Host is up (0.0013s latency).
+MAC Address: 90:2E:16:9F:FF:3D (Unknown)
+Nmap scan report for 172.16.29.99
+Host is up (0.0011s latency).
+MAC Address: 6C:3B:E5:0F:D8:B4 (Hewlett Packard)
+Nmap scan report for 172.16.29.103
+Host is up (0.35s latency).
+MAC Address: 7C:D1:C3:7A:D3:BA (Apple)
+Nmap scan report for 172.16.29.104
+Host is up (0.00088s latency).
+MAC Address: 80:FA:5B:90:14:E5 (Clevo)
+Nmap scan report for 172.16.29.106
+Host is up (0.00062s latency).
+MAC Address: 6C:3B:E5:0B:F6:D5 (Hewlett Packard)
+Nmap scan report for 172.16.29.107
+Host is up (0.00050s latency).
+MAC Address: 08:97:98:E8:AC:2E (Unknown)
+Nmap scan report for 172.16.29.110
+Host is up (0.0015s latency).
+MAC Address: 2C:44:FD:0B:76:6D (Hewlett Packard)
+Nmap scan report for 172.16.29.111
+Host is up (0.0014s latency).
+MAC Address: 6C:3B:E5:0B:F8:A6 (Hewlett Packard)
+Nmap scan report for 172.16.29.113
+Host is up (0.0082s latency).
+MAC Address: 00:0C:29:DE:7F:A2 (VMware)
+Nmap scan report for 172.16.29.116
+Host is up (0.0018s latency).
+MAC Address: 00:0C:29:F5:37:C4 (VMware)
+Nmap scan report for 172.16.29.117
+Host is up (0.0019s latency).
+MAC Address: 8C:8C:AA:7C:31:04 (Unknown)
+Nmap scan report for 172.16.29.119
+Host is up (0.00086s latency).
+MAC Address: F0:92:1C:EB:EF:40 (Hewlett Packard)
+Nmap scan report for 172.16.29.120
+Host is up (0.00071s latency).
+MAC Address: 84:A9:3E:07:A8:86 (Unknown)
+Nmap scan report for 172.16.29.121
+Host is up (0.00058s latency).
+MAC Address: 88:51:FB:6A:BF:55 (Hewlett Packard)
+Nmap scan report for 172.16.29.122
+Host is up (0.00045s latency).
+MAC Address: 80:FA:5B:86:7E:5E (Clevo)
+Nmap scan report for 172.16.29.123
+Host is up (0.00094s latency).
+MAC Address: 00:0C:29:68:6F:77 (VMware)
+Nmap scan report for 172.16.29.124
+Host is up (0.00082s latency).
+MAC Address: 2C:53:4A:03:8A:89 (Shenzhen Winyao Electronic Limited)
+Nmap scan report for 172.16.29.127
+Host is up (0.00099s latency).
+MAC Address: 8C:8C:AA:20:D4:36 (Unknown)
+Nmap scan report for 172.16.29.128
+Host is up (0.0014s latency).
+MAC Address: D4:C9:EF:F2:AF:C3 (Hewlett Packard)
+Nmap scan report for 172.16.29.129
+Host is up (0.00062s latency).
+MAC Address: 00:0C:29:A6:33:CF (VMware)
+Nmap scan report for 172.16.29.136
+Host is up (0.00090s latency).
+MAC Address: 10:60:4B:74:29:1D (Hewlett Packard)
+Nmap scan report for 172.16.29.146
+Host is up (0.0013s latency).
+MAC Address: 10:BE:F5:8E:39:36 (D-Link International)
+Nmap scan report for 172.16.29.251
+Host is up (0.0011s latency).
+MAC Address: F4:EC:38:20:FA:6B (Tp-link Technologies)
+Nmap scan report for 172.16.29.115
+Host is up.
+Nmap done: 256 IP addresses (104 hosts up) scanned in 4.10 seconds

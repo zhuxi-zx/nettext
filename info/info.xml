@@ -1,0 +1,4006 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-11-05 10:20 CST
+Nmap scan report for 172.16.29.1
+Host is up (0.0018s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Foxgate S9816 switch telnetd
+80/tcp open  http    GoAhead WebServer
+|_http-server-header: GoAhead-Webs
+MAC Address: 00:03:0F:40:30:8A (Digital China (Shanghai) Networks)
+Device type: remote management
+Running: Control4 embedded
+OS details: Control4 HC-300 home controller
+Network Distance: 1 hop
+Service Info: Device: switch; CPE: cpe:/h:foxgate:s9816
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.78 ms 172.16.29.1
+
+Nmap scan report for 172.16.29.2
+Host is up (0.0012s latency).
+Not shown: 999 filtered ports
+PORT      STATE  SERVICE VERSION
+58080/tcp closed unknown
+MAC Address: BC:D1:77:45:2F:23 (Tp-link Technologies)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized
+Running: FreeBSD 8.X, VMware ESXi 5.X
+OS CPE: cpe:/o:freebsd:freebsd:8.0 cpe:/o:vmware:esxi:5.0
+OS details: FreeBSD 8.0-RC1-p1, VMware ESXi 5.0
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.16 ms 172.16.29.2
+
+Nmap scan report for 172.16.29.3
+Host is up (0.0012s latency).
+All 1000 scanned ports on 172.16.29.3 are filtered
+MAC Address: FC:D7:33:B6:26:83 (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.16 ms 172.16.29.3
+
+Nmap scan report for 172.16.29.4
+Host is up (0.0010s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+10004/tcp open  emcrmirccd?
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: A0:D3:C1:29:92:3F (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=31895%PV=Y%DS=1%DC=D%G=Y%M=A0D3C1%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10D%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8
+OS:ST11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2
+OS:000%W6=2000)ECN(R=Y%DF=Y%T=40%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=
+OS:40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3
+OS:(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%R
+OS:IPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: -20200618OHQRRW; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m22s, deviation: 0s, median: -1m22s
+|_nbstat: NetBIOS name: -20200618OHQRRW, NetBIOS user: <unknown>, NetBIOS MAC: a0:d3:c1:29:92:3f (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: -20200618OHQRRW
+|   NetBIOS computer name: -20200618OHQRRW\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:45:23+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:45:22
+|_  start_date: 2021-11-05 07:24:31
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.03 ms 172.16.29.4
+
+Nmap scan report for 172.16.29.5
+Host is up (0.0015s latency).
+Not shown: 987 closed ports
+PORT      STATE SERVICE          VERSION
+80/tcp    open  http             Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE COPY PROPFIND LOCK UNLOCK PROPPATCH MKCOL PUT DELETE MOVE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: 500 - \xC4\xDA\xB2\xBF\xB7\xFE\xCE\xF1\xC6\xF7\xB4\xED\xCE\xF3\xA1\xA3
+| http-webdav-scan: 
+|   Public Options: OPTIONS, TRACE, GET, HEAD, POST, PROPFIND, PROPPATCH, MKCOL, PUT, DELETE, COPY, MOVE, LOCK, UNLOCK
+|   Allowed Methods: OPTIONS, TRACE, GET, HEAD, POST, COPY, PROPFIND, LOCK, UNLOCK
+|   Server Date: Fri, 05 Nov 2021 02:44:27 GMT
+|   Server Type: Microsoft-IIS/7.5
+|_  WebDAV type: Unkown
+135/tcp   open  msrpc            Microsoft Windows RPC
+139/tcp   open  netbios-ssn      Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds     Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+1433/tcp  open  ms-sql-s         Microsoft SQL Server 2008 10.00.2531.00; SP1
+| ms-sql-ntlm-info: 
+|   Target_Name: SC-201601040911
+|   NetBIOS_Domain_Name: SC-201601040911
+|   NetBIOS_Computer_Name: SC-201601040911
+|   DNS_Domain_Name: SC-201601040911
+|   DNS_Computer_Name: SC-201601040911
+|_  Product_Version: 6.1.7601
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2021-10-11T07:12:51
+|_Not valid after:  2051-10-11T07:12:51
+|_ssl-date: 2021-11-05T02:44:28+00:00; -29s from scanner time.
+2383/tcp  open  ms-olap4?
+3389/tcp  open  ms-wbt-server    Microsoft Terminal Service
+8082/tcp  open  blackice-alerts?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 400 Error 
+|     Server: QQ/1.0.0 (Tencent) 
+|     Content-Length: 18
+|     Connection: close
+|_    unkown the request
+49152/tcp open  msrpc            Microsoft Windows RPC
+49153/tcp open  msrpc            Microsoft Windows RPC
+49154/tcp open  msrpc            Microsoft Windows RPC
+49155/tcp open  msrpc            Microsoft Windows RPC
+49158/tcp open  msrpc            Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8082-TCP:V=7.60%I=7%D=11/5%Time=618498B7%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20
+SF:\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\
+SF:nunkown\x20the\x20request")%r(FourOhFourRequest,6D,"HTTP/1\.1\x20400\x2
+SF:0Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Lengt
+SF:h:\x2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(Ge
+SF:nericLines,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x
+SF:20\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\
+SF:r\nunkown\x20the\x20request")%r(HTTPOptions,6D,"HTTP/1\.1\x20400\x20Err
+SF:or\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x
+SF:2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(RTSPRe
+SF:quest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(T
+SF:encent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\nun
+SF:kown\x20the\x20request")%r(SIPOptions,6D,"HTTP/1\.1\x20400\x20Error\x20
+SF:\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x2018\r
+SF:\nConnection:\x20close\r\n\r\nunkown\x20the\x20request");
+MAC Address: 6C:3B:E5:0F:8E:DF (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: SC-201601040911; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -28s, deviation: 0s, median: -29s
+| ms-sql-info: 
+|   172.16.29.5:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2008 SP1
+|       number: 10.00.2531.00
+|       Product: Microsoft SQL Server 2008
+|       Service pack level: SP1
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+|_nbstat: NetBIOS name: SC-201601040911, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0f:8e:df (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: SC-201601040911
+|   NetBIOS computer name: SC-201601040911\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:44:36+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:44:29
+|_  start_date: 2021-10-11 15:12:26
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.49 ms 172.16.29.5
+
+Nmap scan report for 172.16.29.6
+Host is up (0.0017s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+2968/tcp open  enpp?
+MAC Address: 94:DE:80:13:A8:6F (Giga-byte Technology)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 7
+OS CPE: cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.73 ms 172.16.29.6
+
+Nmap scan report for 172.16.29.7
+Host is up (0.0015s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+1947/tcp open  http    Aladdin/SafeNet HASP license manager 18.00
+|_http-server-header: HASP LM/18.00
+|_http-title: 403 Forbidden
+MAC Address: 70:85:C2:80:15:60 (ASRock Incorporation)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized
+Running (JUST GUESSING): FreeBSD 6.X|10.X (89%), AVtech embedded (89%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3
+Aggressive OS guesses: FreeBSD 6.2-RELEASE (89%), AVtech Room Alert 26W environmental monitor (89%), FreeBSD 10.3-STABLE (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.50 ms 172.16.29.7
+
+Nmap scan report for 172.16.29.8
+Host is up (0.0019s latency).
+Not shown: 517 closed ports, 478 filtered ports
+PORT      STATE SERVICE    VERSION
+135/tcp   open  tcpwrapped
+139/tcp   open  tcpwrapped
+445/tcp   open  tcpwrapped
+49154/tcp open  tcpwrapped
+49161/tcp open  tcpwrapped
+MAC Address: 44:87:FC:D2:F3:18 (Elitegroup Computer Systems)
+Device type: firewall
+Running (JUST GUESSING): Fortinet embedded (87%)
+OS CPE: cpe:/h:fortinet:fortigate_100d
+Aggressive OS guesses: Fortinet FortiGate 100D firewall (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Host script results:
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.87 ms 172.16.29.8
+
+Nmap scan report for 172.16.29.9
+Host is up (0.0010s latency).
+Not shown: 994 closed ports
+PORT    STATE SERVICE         VERSION
+135/tcp open  msrpc           Microsoft Windows RPC
+139/tcp open  netbios-ssn     Microsoft Windows netbios-ssn
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Fri, 5 Nov 2021 02:36:21 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Fri, 5 Nov 2021 02:36:21 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Date: Fri, 5 Nov 2021 02:36:21 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:36:31 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|     <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|   SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:37:33 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|_    <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2021-04-13T06:54:22
+|_Not valid after:  2022-04-13T06:54:22
+|_ssl-date: TLS randomness does not represent time
+445/tcp open  microsoft-ds    Windows 10 Pro 18363 microsoft-ds (workgroup: WorkGroup)
+902/tcp open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.60%T=SSL%I=7%D=11/5%Time=618498C3%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,139,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x205\
+SF:x20Nov\x202021\x2002:36:21\x20GMT\r\nConnection:\x20close\r\nContent-Se
+SF:curity-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plai
+SF:n;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r
+SF:\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-X
+SF:SS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,13F
+SF:,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Fri,\x205\x20Nov\x
+SF:202021\x2002:36:21\x20GMT\r\nConnection:\x20close\r\nContent-Security-P
+SF:olicy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20ch
+SF:arset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Cont
+SF:ent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Prote
+SF:ction:\x201\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,139,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x205\x20Nov\x202021\x
+SF:2002:36:21\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy:\x
+SF:20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset=ut
+SF:f-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type
+SF:-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x
+SF:201\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,B2,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nDate:\x20Fri,\x205\x20Nov\x202021\x2002:36:31\x2
+SF:0GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-L
+SF:ength:\x2050\r\n\r\n<HTML><BODY><H1>400\x20Bad\x20Request</H1></BODY></
+SF:HTML>")%r(SIPOptions,B2,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x2
+SF:0Fri,\x205\x20Nov\x202021\x2002:37:33\x20GMT\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n<HTML><BODY
+SF:><H1>400\x20Bad\x20Request</H1></BODY></HTML>");
+MAC Address: 2C:41:38:AA:C2:4F (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=41037%PV=Y%DS=1%DC=D%G=Y%M=2C4138%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=109%TI=I%CI=I%II=I
+OS:%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=M
+OS:5B4NW8NNS%O6=M5B4NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70
+OS:)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+
+OS:%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=Y
+OS:%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80
+OS:%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G
+OS:%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: BF-202104131002; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -31s, deviation: 0s, median: -31s
+|_nbstat: NetBIOS name: BF-202104131002, NetBIOS user: <unknown>, NetBIOS MAC: 2c:41:38:aa:c2:4f (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 10 Pro 18363 (Windows 10 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: BF-202104131002
+|   NetBIOS computer name: BF-202104131002\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:46:37+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:46:35
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.00 ms 172.16.29.9
+
+Nmap scan report for 172.16.29.10
+Host is up (0.0015s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE          VERSION
+135/tcp   open  msrpc            Microsoft Windows RPC
+139/tcp   open  netbios-ssn      Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds     Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+8082/tcp  open  blackice-alerts?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 400 Error 
+|     Server: QQ/1.0.0 (Tencent) 
+|     Content-Length: 18
+|     Connection: close
+|_    unkown the request
+10010/tcp open  rxapi?
+49152/tcp open  msrpc            Microsoft Windows RPC
+49153/tcp open  msrpc            Microsoft Windows RPC
+49154/tcp open  msrpc            Microsoft Windows RPC
+49155/tcp open  msrpc            Microsoft Windows RPC
+49163/tcp open  msrpc            Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8082-TCP:V=7.60%I=7%D=11/5%Time=618498C7%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20
+SF:\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\
+SF:nunkown\x20the\x20request")%r(FourOhFourRequest,6D,"HTTP/1\.1\x20400\x2
+SF:0Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Lengt
+SF:h:\x2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(Ge
+SF:nericLines,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x
+SF:20\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\
+SF:r\nunkown\x20the\x20request")%r(HTTPOptions,6D,"HTTP/1\.1\x20400\x20Err
+SF:or\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x
+SF:2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(RTSPRe
+SF:quest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(T
+SF:encent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\nun
+SF:kown\x20the\x20request")%r(SIPOptions,6D,"HTTP/1\.1\x20400\x20Error\x20
+SF:\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x2018\r
+SF:\nConnection:\x20close\r\n\r\nunkown\x20the\x20request");
+MAC Address: 88:51:FB:6D:5E:1C (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 8.1
+OS CPE: cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 8.1 Enterprise
+Network Distance: 1 hop
+Service Info: Host: HUANG; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m45s, deviation: 0s, median: -1m45s
+|_nbstat: NetBIOS name: HUANG, NetBIOS user: <unknown>, NetBIOS MAC: 88:51:fb:6d:5e:1c (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: huang
+|   NetBIOS computer name: HUANG\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:45:22+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:45:21
+|_  start_date: 2021-11-01 07:38:42
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.49 ms 172.16.29.10
+
+Nmap scan report for 172.16.29.12
+Host is up (0.0014s latency).
+Not shown: 993 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Professional 7600 microsoft-ds (workgroup: WORKGROUP)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 2C:44:FD:13:46:2A (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: HP-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -4m41s, deviation: 0s, median: -4m41s
+|_nbstat: NetBIOS name: HP-PC, NetBIOS user: <unknown>, NetBIOS MAC: 2c:44:fd:13:46:2a (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7600 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::-:professional
+|   Computer name: hp-PC
+|   NetBIOS computer name: HP-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:42:26+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:42:26
+|_  start_date: 2021-11-05 07:44:19
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.39 ms 172.16.29.12
+
+Nmap scan report for 172.16.29.14
+Host is up (0.0012s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+2869/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49158/tcp open  msrpc        Microsoft Windows RPC
+49159/tcp open  msrpc        Microsoft Windows RPC
+49160/tcp open  msrpc        Microsoft Windows RPC
+49163/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 74:D4:35:C8:9E:5C (Giga-byte Technology)
+Device type: general purpose
+Running: Microsoft Windows Vista|7|2008
+OS CPE: cpe:/o:microsoft:windows_vista::sp1:home_premium cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2008
+OS details: Microsoft Windows Vista Home Premium SP1, Windows 7, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: Host: AB-201207261405; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2m26s, deviation: 0s, median: -2m26s
+|_nbstat: NetBIOS name: AB-201207261405, NetBIOS user: <unknown>, NetBIOS MAC: 74:d4:35:c8:9e:5c (Giga-byte Technology)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: AB-201207261405
+|   NetBIOS computer name: AB-201207261405\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:44:41+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:44:41
+|_  start_date: 2021-11-05 07:50:05
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.17 ms 172.16.29.14
+
+Nmap scan report for 172.16.29.15
+Host is up (0.00076s latency).
+All 1000 scanned ports on 172.16.29.15 are filtered
+MAC Address: 88:51:FB:4E:FA:ED (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.76 ms 172.16.29.15
+
+Nmap scan report for 172.16.29.17
+Host is up (0.0012s latency).
+Not shown: 993 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+5357/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 88:51:FB:4E:FB:FE (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=35977%PV=Y%DS=1%DC=D%G=Y%M=8851FB%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=107%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8
+OS:ST11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2
+OS:000%W6=2000)ECN(R=Y%DF=Y%T=40%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=
+OS:40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3
+OS:(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%R
+OS:IPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: PC-20180608EPIB; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -7m32s, deviation: 0s, median: -7m32s
+|_nbstat: NetBIOS name: PC-20180608EPIB, NetBIOS user: <unknown>, NetBIOS MAC: 88:51:fb:4e:fb:fe (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: PC-20180608EPIB
+|   NetBIOS computer name: PC-20180608EPIB\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:39:45+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:39:36
+|_  start_date: 2021-11-05 07:46:15
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.18 ms 172.16.29.17
+
+Nmap scan report for 172.16.29.19
+Host is up (0.0012s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+MAC Address: 6C:3B:E5:0B:EA:7B (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 7
+OS CPE: cpe:/o:microsoft:windows_7
+OS details: Microsoft Windows 7
+Network Distance: 1 hop
+Service Info: Host: STUA7F065; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -51s, deviation: 0s, median: -51s
+|_nbstat: NetBIOS name: STUA7F065, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0b:ea:7b (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: stua7f065
+|   NetBIOS computer name: STUA7F065\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:46:18+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:46:17
+|_  start_date: 2021-11-05 07:52:56
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.16 ms 172.16.29.19
+
+Nmap scan report for 172.16.29.20
+Host is up (0.0012s latency).
+Not shown: 993 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: F0:92:1C:EE:21:C0 (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=44098%PV=Y%DS=1%DC=D%G=Y%M=F0921C%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10B%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8
+OS:ST11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2
+OS:000%W6=2000)ECN(R=Y%DF=Y%T=40%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=
+OS:40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3
+OS:(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%R
+OS:IPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: SD-20200707JPDW; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 36s, deviation: 0s, median: 36s
+|_nbstat: NetBIOS name: SD-20200707JPDW, NetBIOS user: <unknown>, NetBIOS MAC: f0:92:1c:ee:21:c0 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: SD-20200707JPDW
+|   NetBIOS computer name: SD-20200707JPDW\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:47:45+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:47:44
+|_  start_date: 2021-11-05 07:56:51
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.21 ms 172.16.29.20
+
+Nmap scan report for 172.16.29.21
+Host is up (0.0013s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE          VERSION
+135/tcp   open  msrpc            Microsoft Windows RPC
+139/tcp   open  netbios-ssn      Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds     Windows 7 Professional 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+8082/tcp  open  blackice-alerts?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 400 Error 
+|     Server: QQ/1.0.0 (Tencent) 
+|     Content-Length: 18
+|     Connection: close
+|_    unkown the request
+49152/tcp open  msrpc            Microsoft Windows RPC
+49153/tcp open  msrpc            Microsoft Windows RPC
+49154/tcp open  msrpc            Microsoft Windows RPC
+49158/tcp open  msrpc            Microsoft Windows RPC
+49159/tcp open  msrpc            Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8082-TCP:V=7.60%I=7%D=11/5%Time=6184992C%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20
+SF:\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\
+SF:nunkown\x20the\x20request")%r(FourOhFourRequest,6D,"HTTP/1\.1\x20400\x2
+SF:0Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Lengt
+SF:h:\x2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(Ge
+SF:nericLines,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x
+SF:20\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\
+SF:r\nunkown\x20the\x20request")%r(HTTPOptions,6D,"HTTP/1\.1\x20400\x20Err
+SF:or\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x
+SF:2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(RTSPRe
+SF:quest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(T
+SF:encent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\nun
+SF:kown\x20the\x20request")%r(SIPOptions,6D,"HTTP/1\.1\x20400\x20Error\x20
+SF:\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x2018\r
+SF:\nConnection:\x20close\r\n\r\nunkown\x20the\x20request");
+MAC Address: 2C:44:FD:0D:A8:9F (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: HP-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -5m04s, deviation: 0s, median: -5m04s
+|_nbstat: NetBIOS name: HP-PC, NetBIOS user: <unknown>, NetBIOS MAC: 2c:44:fd:0d:a8:9f (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: hp-PC
+|   NetBIOS computer name: HP-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:42:13+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:42:05
+|_  start_date: 2021-11-01 07:51:58
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.34 ms 172.16.29.21
+
+Nmap scan report for 172.16.29.22
+Host is up (0.00099s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE VERSION
+23/tcp   filtered telnet
+80/tcp   open     http
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Type: text/html; charset=gbk
+|     Content-Length: 106
+|     Connection: close
+|     <html><head><title>403 Forbidden</title></head><body><center><h1>403 Forbidden</h1></center></body></html>
+|   GenericLines: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=gbk
+|     Content-Length: 110
+|     Connection: close
+|     <html><head><title>400 Bad Request</title></head><body><center><h1>400 Bad Request</h1></center></body></html>
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 405 Method Not Allowed
+|     Content-Type: text/html; charset=gbk
+|     Content-Length: 124
+|     Connection: close
+|     <html><head><title>405 Method Not Allowed</title></head><body><center><h1>405 Method Not Allowed</h1></center></body></html>
+|   RPCCheck, X11Probe: 
+|     HTTP/1.1 408 Request Timeout
+|     Content-Type: text/html; charset=gbk
+|     Content-Length: 118
+|     Connection: close
+|_    <html><head><title>408 Request Timeout</title></head><body><center><h1>408 Request Timeout</h1></center></body></html>
+|_http-title: 403 Forbidden
+1900/tcp filtered upnp
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.60%I=7%D=11/5%Time=61849929%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,D2,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Type:\x20text/html;
+SF:\x20charset=gbk\r\nContent-Length:\x20106\r\nConnection:\x20close\r\n\r
+SF:\n<html><head><title>403\x20Forbidden</title></head><body><center><h1>4
+SF:03\x20Forbidden</h1></center></body></html>")%r(HTTPOptions,ED,"HTTP/1\
+SF:.1\x20405\x20Method\x20Not\x20Allowed\r\nContent-Type:\x20text/html;\x2
+SF:0charset=gbk\r\nContent-Length:\x20124\r\nConnection:\x20close\r\n\r\n<
+SF:html><head><title>405\x20Method\x20Not\x20Allowed</title></head><body><
+SF:center><h1>405\x20Method\x20Not\x20Allowed</h1></center></body></html>"
+SF:)%r(RTSPRequest,ED,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nCon
+SF:tent-Type:\x20text/html;\x20charset=gbk\r\nContent-Length:\x20124\r\nCo
+SF:nnection:\x20close\r\n\r\n<html><head><title>405\x20Method\x20Not\x20Al
+SF:lowed</title></head><body><center><h1>405\x20Method\x20Not\x20Allowed</
+SF:h1></center></body></html>")%r(X11Probe,E4,"HTTP/1\.1\x20408\x20Request
+SF:\x20Timeout\r\nContent-Type:\x20text/html;\x20charset=gbk\r\nContent-Le
+SF:ngth:\x20118\r\nConnection:\x20close\r\n\r\n<html><head><title>408\x20R
+SF:equest\x20Timeout</title></head><body><center><h1>408\x20Request\x20Tim
+SF:eout</h1></center></body></html>")%r(FourOhFourRequest,D2,"HTTP/1\.1\x2
+SF:0403\x20Forbidden\r\nContent-Type:\x20text/html;\x20charset=gbk\r\nCont
+SF:ent-Length:\x20106\r\nConnection:\x20close\r\n\r\n<html><head><title>40
+SF:3\x20Forbidden</title></head><body><center><h1>403\x20Forbidden</h1></c
+SF:enter></body></html>")%r(GenericLines,D8,"HTTP/1\.1\x20400\x20Bad\x20Re
+SF:quest\r\nContent-Type:\x20text/html;\x20charset=gbk\r\nContent-Length:\
+SF:x20110\r\nConnection:\x20close\r\n\r\n<html><head><title>400\x20Bad\x20
+SF:Request</title></head><body><center><h1>400\x20Bad\x20Request</h1></cen
+SF:ter></body></html>")%r(RPCCheck,E4,"HTTP/1\.1\x20408\x20Request\x20Time
+SF:out\r\nContent-Type:\x20text/html;\x20charset=gbk\r\nContent-Length:\x2
+SF:0118\r\nConnection:\x20close\r\n\r\n<html><head><title>408\x20Request\x
+SF:20Timeout</title></head><body><center><h1>408\x20Request\x20Timeout</h1
+SF:></center></body></html>");
+MAC Address: D0:C7:C0:85:16:07 (Tp-link Technologies)
+Device type: general purpose
+Running: Wind River VxWorks
+OS CPE: cpe:/o:windriver:vxworks
+OS details: VxWorks
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.99 ms 172.16.29.22
+
+Nmap scan report for 172.16.29.23
+Host is up (0.0011s latency).
+All 1000 scanned ports on 172.16.29.23 are filtered
+MAC Address: 6C:3B:E5:0F:8F:27 (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.10 ms 172.16.29.23
+
+Nmap scan report for 172.16.29.24
+Host is up (0.0011s latency).
+Not shown: 989 closed ports
+PORT      STATE SERVICE     VERSION
+21/tcp    open  ftp         vsftpd (before 2.0.8) or WU-FTPD
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| drwxrwxrwx    2 0        100             6 Sep 08 07:00 Backups [NSE: writeable]
+|_drwxrwx---    5 0        100            54 Sep 08 07:01 xxx
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 172.16.29.115
+|      Logged in as operator
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 1
+|      vsFTPd 2.0.5 - secure, fast, stable
+|_End of status
+80/tcp    open  http        Mbedthis-Appweb 2.4.0 (Iomega StorCenter ix2 NAS device)
+| http-cookie-flags: 
+|   /: 
+|     _appwebSessionId_: 
+|_      httponly flag not set
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Mbedthis-Appweb/2.4.0
+|_http-title: Did not follow redirect to https://172.16.29.24/
+139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+443/tcp   open  ssl/http    Mbedthis-Appweb 2.4.0 (Iomega StorCenter ix2 NAS device)
+| http-cookie-flags: 
+|   /: 
+|     _appwebSessionId_: 
+|_      httponly flag not set
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Mbedthis-Appweb/2.4.0
+| http-title: \xE7\x99\xBB\xE5\xBD\x95
+|_Requested resource was https://172.16.29.24/index.html?t=1
+| ssl-cert: Subject: commonName=networkskill/organizationName=EMC Corporation/stateOrProvinceName=MA/countryName=US
+| Subject Alternative Name: IP Address:172.16.29.5, URI:http://networkskill.local., URI:http://networkskill
+| Not valid before: 2021-10-07T16:02:20
+|_Not valid after:  2023-10-07T16:02:20
+|_ssl-date: 2021-11-05T02:45:08+00:00; -27s from scanner time.
+445/tcp   open  netbios-ssn Samba smbd 3.0.32 (workgroup: WORKGROUP)
+548/tcp   open  afp         Netatalk 2 (name: NetworkSkill; protocol 3.1)
+| afp-serverinfo: 
+|   Server Flags: 
+|     Flags hex: 0x8379
+|     Super Client: true
+|     UUIDs: false
+|     UTF8 Server Name: true
+|     Open Directory: true
+|     Reconnect: false
+|     Server Notifications: true
+|     TCP/IP: true
+|     Server Signature: true
+|     Server Messages: true
+|     Password Saving Prohibited: false
+|     Password Changing: false
+|     Copy File: true
+|   Server Name: NetworkSkill
+|   Machine Type: Netatalk
+|   AFP Versions: AFPVersion 1.1, AFPVersion 2.0, AFPVersion 2.1, AFP2.2, AFPX03, AFP3.1
+|   UAMs: DHCAST128
+|   Server Signature: 1d05ac101d05ac101d05ac101d05ac10
+|   Network Addresses: 
+|     172.16.29.5
+|_  UTF8 Server Name: NetworkSkill
+631/tcp   open  ipp?
+873/tcp   open  rsync       (protocol version 29)
+9000/tcp  open  upnp        TwonkyMedia UPnP (Iomega Home Media NAS device; Linux 2.x.x; UPnP 1.0; pvConnect SDK 1.0)
+49152/tcp open  upnp        Portable SDK for UPnP devices 1.6.0 (Linux 2.6.22.18; UPnP 1.0)
+49153/tcp open  upnp        Portable SDK for UPnP devices 1.6.0 (Linux 2.6.22.18; UPnP 1.0)
+MAC Address: 00:D0:B8:0D:11:97 (Iomega)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=21%CT=1%CU=41358%PV=Y%DS=1%DC=D%G=Y%M=00D0B8%T
+OS:M=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=FA%TI=Z%CI=Z%II=I%T
+OS:S=7)OPS(O1=M5B4ST11NW4%O2=M5B4ST11NW4%O3=M5B4NNT11NW4%O4=M5B4ST11NW4%O5=
+OS:M5B4ST11NW4%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=1
+OS:6A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW4%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A
+OS:=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%
+OS:Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=
+OS:A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=
+OS:Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%
+OS:T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: OSs: Unix, Linux; Device: storage-misc; CPE: cpe:/h:iomega:storcenter_ix2, cpe:/o:linux:linux_kernel:2.x.x, cpe:/o:linux:linux_kernel:2.6.22.18
+
+Host script results:
+|_clock-skew: mean: -27s, deviation: 0s, median: -27s
+|_nbstat: NetBIOS name: NETWORKSKILL, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.32)
+|   Computer name: NetworkSkill
+|   NetBIOS computer name: 
+|   Domain name: 
+|   FQDN: NetworkSkill
+|_  System time: 2021-11-05T10:46:43+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.15 ms 172.16.29.24
+
+Nmap scan report for 172.16.29.25
+Host is up (0.045s latency).
+All 1000 scanned ports on 172.16.29.25 are filtered
+MAC Address: 38:FC:98:19:AE:6A (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   45.39 ms 172.16.29.25
+
+Nmap scan report for 172.16.29.26
+Host is up (0.041s latency).
+All 1000 scanned ports on 172.16.29.26 are filtered
+MAC Address: B0:60:88:C8:FE:EC (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   41.04 ms 172.16.29.26
+
+Nmap scan report for 172.16.29.28
+Host is up (0.040s latency).
+All 1000 scanned ports on 172.16.29.28 are filtered
+MAC Address: 74:4C:A1:DF:6A:D5 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   39.88 ms 172.16.29.28
+
+Nmap scan report for 172.16.29.29
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.16.29.29 are closed
+MAC Address: A4:50:46:11:D3:75 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   140.92 ms 172.16.29.29
+
+Nmap scan report for 172.16.29.30
+Host is up (0.0012s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE          VERSION
+135/tcp   open  msrpc            Microsoft Windows RPC
+139/tcp   open  netbios-ssn      Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds     Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+8082/tcp  open  blackice-alerts?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 400 Error 
+|     Server: QQ/1.0.0 (Tencent) 
+|     Content-Length: 18
+|     Connection: close
+|_    unkown the request
+8083/tcp  open  us-srv?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 400 Error 
+|     Server: QQ/1.0.0 (Tencent) 
+|     Content-Length: 18
+|     Connection: close
+|_    unkown the request
+10001/tcp open  scp-config?
+49152/tcp open  msrpc            Microsoft Windows RPC
+49153/tcp open  msrpc            Microsoft Windows RPC
+49154/tcp open  msrpc            Microsoft Windows RPC
+49155/tcp open  msrpc            Microsoft Windows RPC
+49156/tcp open  msrpc            Microsoft Windows RPC
+49157/tcp open  upnp             Portable SDK for UPnP devices 1.6.20 (Windows 6.1.7601 2 (SP1); UPnP 1.0)
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8082-TCP:V=7.60%I=7%D=11/5%Time=6184994A%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20
+SF:\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\
+SF:nunkown\x20the\x20request")%r(FourOhFourRequest,6D,"HTTP/1\.1\x20400\x2
+SF:0Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Lengt
+SF:h:\x2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(Ge
+SF:nericLines,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x
+SF:20\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\
+SF:r\nunkown\x20the\x20request")%r(HTTPOptions,6D,"HTTP/1\.1\x20400\x20Err
+SF:or\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x
+SF:2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(RTSPRe
+SF:quest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(T
+SF:encent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\nun
+SF:kown\x20the\x20request")%r(SIPOptions,6D,"HTTP/1\.1\x20400\x20Error\x20
+SF:\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x2018\r
+SF:\nConnection:\x20close\r\n\r\nunkown\x20the\x20request");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8083-TCP:V=7.60%I=7%D=11/5%Time=6184994E%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20
+SF:\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\
+SF:nunkown\x20the\x20request")%r(FourOhFourRequest,6D,"HTTP/1\.1\x20400\x2
+SF:0Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Lengt
+SF:h:\x2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(Ge
+SF:nericLines,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x
+SF:20\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\
+SF:r\nunkown\x20the\x20request")%r(HTTPOptions,6D,"HTTP/1\.1\x20400\x20Err
+SF:or\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x
+SF:2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(RTSPRe
+SF:quest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(T
+SF:encent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\nun
+SF:kown\x20the\x20request")%r(SIPOptions,6D,"HTTP/1\.1\x20400\x20Error\x20
+SF:\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x2018\r
+SF:\nConnection:\x20close\r\n\r\nunkown\x20the\x20request");
+MAC Address: 94:DE:80:5E:8F:A7 (Giga-byte Technology)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: MQMO95Q7KGMIE6O; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2m57s, deviation: 0s, median: -2m57s
+|_nbstat: NetBIOS name: MQMO95Q7KGMIE6O, NetBIOS user: <unknown>, NetBIOS MAC: 94:de:80:5e:8f:a7 (Giga-byte Technology)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: MQMO95Q7KGMIE6O
+|   NetBIOS computer name: MQMO95Q7KGMIE6O\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:44:12+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:44:12
+|_  start_date: 2021-11-01 07:54:31
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.16 ms 172.16.29.30
+
+Nmap scan report for 172.16.29.31
+Host is up (0.0014s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49161/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 6C:3B:E5:0F:D8:98 (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: PC201311191356; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 6m05s, deviation: 0s, median: 6m05s
+|_nbstat: NetBIOS name: PC201311191356, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0f:d8:98 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: PC201311191356
+|   NetBIOS computer name: PC201311191356\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:53:17+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:53:17
+|_  start_date: 2021-10-14 08:10:30
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.37 ms 172.16.29.31
+
+Nmap scan report for 172.16.29.32
+Host is up (0.0012s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49156/tcp open  upnp
+| fingerprint-strings: 
+|   DNSVersionBindReq, GenericLines, RPCCheck, RTSPRequest, SIPOptions: 
+|     HTTP/0.0 400 Bad Request
+|     SERVER: 6.1.7601 2/S, UPnP/1.0, Portable SDK for UPnP devices/1.6.19
+|     CONTENT-LENGTH: 50
+|     CONTENT-TYPE: text/html
+|     <html><body><h1>400 Bad Request</h1></body></html>
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 404 Not Found
+|     SERVER: 6.1.7601 2/S, UPnP/1.0, Portable SDK for UPnP devices/1.6.19
+|     CONTENT-LENGTH: 48
+|     CONTENT-TYPE: text/html
+|     <html><body><h1>404 Not Found</h1></body></html>
+|   HTTPOptions: 
+|     HTTP/0.0 501 Not Implemented
+|     SERVER: 6.1.7601 2/S, UPnP/1.0, Portable SDK for UPnP devices/1.6.19
+|     CONTENT-LENGTH: 54
+|     CONTENT-TYPE: text/html
+|_    <html><body><h1>501 Not Implemented</h1></body></html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port49156-TCP:V=7.60%I=7%D=11/5%Time=61849967%P=x86_64-pc-linux-gnu%r(G
+SF:enericLines,C1,"HTTP/0\.0\x20400\x20Bad\x20Request\r\nSERVER:\x206\.1\.
+SF:7601\x202/S,\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices
+SF:/1\.6\.19\r\nCONTENT-LENGTH:\x2050\r\nCONTENT-TYPE:\x20text/html\r\n\r\
+SF:n<html><body><h1>400\x20Bad\x20Request</h1></body></html>")%r(GetReques
+SF:t,BD,"HTTP/1\.0\x20404\x20Not\x20Found\r\nSERVER:\x206\.1\.7601\x202/S,
+SF:\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.6\.19\r\
+SF:nCONTENT-LENGTH:\x2048\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body
+SF:><h1>404\x20Not\x20Found</h1></body></html>")%r(HTTPOptions,C9,"HTTP/0\
+SF:.0\x20501\x20Not\x20Implemented\r\nSERVER:\x206\.1\.7601\x202/S,\x20UPn
+SF:P/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.6\.19\r\nCONTEN
+SF:T-LENGTH:\x2054\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>50
+SF:1\x20Not\x20Implemented</h1></body></html>")%r(RTSPRequest,C1,"HTTP/0\.
+SF:0\x20400\x20Bad\x20Request\r\nSERVER:\x206\.1\.7601\x202/S,\x20UPnP/1\.
+SF:0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1\.6\.19\r\nCONTENT-LEN
+SF:GTH:\x2050\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>400\x20
+SF:Bad\x20Request</h1></body></html>")%r(RPCCheck,C1,"HTTP/0\.0\x20400\x20
+SF:Bad\x20Request\r\nSERVER:\x206\.1\.7601\x202/S,\x20UPnP/1\.0,\x20Portab
+SF:le\x20SDK\x20for\x20UPnP\x20devices/1\.6\.19\r\nCONTENT-LENGTH:\x2050\r
+SF:\nCONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20Reque
+SF:st</h1></body></html>")%r(DNSVersionBindReq,C1,"HTTP/0\.0\x20400\x20Bad
+SF:\x20Request\r\nSERVER:\x206\.1\.7601\x202/S,\x20UPnP/1\.0,\x20Portable\
+SF:x20SDK\x20for\x20UPnP\x20devices/1\.6\.19\r\nCONTENT-LENGTH:\x2050\r\nC
+SF:ONTENT-TYPE:\x20text/html\r\n\r\n<html><body><h1>400\x20Bad\x20Request<
+SF:/h1></body></html>")%r(FourOhFourRequest,BD,"HTTP/1\.0\x20404\x20Not\x2
+SF:0Found\r\nSERVER:\x206\.1\.7601\x202/S,\x20UPnP/1\.0,\x20Portable\x20SD
+SF:K\x20for\x20UPnP\x20devices/1\.6\.19\r\nCONTENT-LENGTH:\x2048\r\nCONTEN
+SF:T-TYPE:\x20text/html\r\n\r\n<html><body><h1>404\x20Not\x20Found</h1></b
+SF:ody></html>")%r(SIPOptions,C1,"HTTP/0\.0\x20400\x20Bad\x20Request\r\nSE
+SF:RVER:\x206\.1\.7601\x202/S,\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20
+SF:UPnP\x20devices/1\.6\.19\r\nCONTENT-LENGTH:\x2050\r\nCONTENT-TYPE:\x20t
+SF:ext/html\r\n\r\n<html><body><h1>400\x20Bad\x20Request</h1></body></html
+SF:>");
+MAC Address: 2C:44:FD:0B:74:20 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Microsoft Windows Phone 7.5 or 8.0 (92%), Microsoft Windows Server 2008 R2 (91%), Microsoft Windows Server 2008 R2 or Windows 8.1 (91%), Microsoft Windows Server 2008 R2 SP1 or Windows 8 (91%), Microsoft Windows 7 Professional or Windows 8 (91%), Microsoft Windows 7 SP1 or Windows Server 2008 SP2 or 2008 R2 SP1 (91%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (91%), Microsoft Windows Vista SP2 (91%), Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008 (90%), Microsoft Windows 8.1 Update 1 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: HP-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 2m23s, deviation: 0s, median: 2m23s
+|_nbstat: NetBIOS name: HP-PC, NetBIOS user: <unknown>, NetBIOS MAC: 2c:44:fd:0b:74:20 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: hp-PC
+|   NetBIOS computer name: HP-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:49:35+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:49:35
+|_  start_date: 2021-11-01 08:42:52
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.24 ms 172.16.29.32
+
+Nmap scan report for 172.16.29.33
+Host is up (0.0012s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE          VERSION
+135/tcp  open  msrpc            Microsoft Windows RPC
+139/tcp  open  netbios-ssn      Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds     Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+8082/tcp open  blackice-alerts?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 400 Error 
+|     Server: QQ/1.0.0 (Tencent) 
+|     Content-Length: 18
+|     Connection: close
+|_    unkown the request
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8082-TCP:V=7.60%I=7%D=11/5%Time=61849970%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20
+SF:\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\
+SF:nunkown\x20the\x20request")%r(FourOhFourRequest,6D,"HTTP/1\.1\x20400\x2
+SF:0Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Lengt
+SF:h:\x2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(Ge
+SF:nericLines,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x
+SF:20\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\
+SF:r\nunkown\x20the\x20request")%r(HTTPOptions,6D,"HTTP/1\.1\x20400\x20Err
+SF:or\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x
+SF:2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(RTSPRe
+SF:quest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(T
+SF:encent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\nun
+SF:kown\x20the\x20request")%r(SIPOptions,6D,"HTTP/1\.1\x20400\x20Error\x20
+SF:\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x2018\r
+SF:\nConnection:\x20close\r\n\r\nunkown\x20the\x20request");
+MAC Address: 88:51:FB:4E:FA:DF (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized|phone
+Running: Microsoft Windows 2008|8.1|7|Phone|Vista
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_7::-:professional cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1
+OS details: Microsoft Windows Server 2008 R2 or Windows 8.1, Microsoft Windows 7 Professional or Windows 8, Microsoft Windows Embedded Standard 7, Microsoft Windows Phone 7.5 or 8.0, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: Host: PC-20180607VEIU; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m25s, deviation: 0s, median: -1m25s
+|_nbstat: NetBIOS name: PC-20180607VEIU, NetBIOS user: <unknown>, NetBIOS MAC: 88:51:fb:4e:fa:df (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: PC-20180607VEIU
+|   NetBIOS computer name: PC-20180607VEIU\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:45:46+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:45:46
+|_  start_date: 2021-11-01 08:42:18
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.20 ms 172.16.29.33
+
+Nmap scan report for 172.16.29.34
+Host is up (0.0019s latency).
+All 1000 scanned ports on 172.16.29.34 are closed
+MAC Address: 00:0C:29:CA:AD:B2 (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.93 ms 172.16.29.34
+
+Nmap scan report for 172.16.29.36
+Host is up (0.00096s latency).
+All 1000 scanned ports on 172.16.29.36 are filtered
+MAC Address: 1C:C1:DE:33:EE:CF (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.96 ms 172.16.29.36
+
+Nmap scan report for 172.16.29.37
+Host is up (0.0089s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+1218/tcp open  upnp    Platinum UPnP 1.0.5.13 (UPnP/1.0 DLNADOC/1.50)
+MAC Address: C4:23:60:F7:F4:36 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (87%), FreeBSD 6.X|10.X (86%), Microsoft Windows XP (85%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3 cpe:/o:microsoft:windows_xp::sp2
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%), FreeBSD 6.2-RELEASE (86%), FreeBSD 10.3-STABLE (85%), Microsoft Windows XP SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   8.90 ms 172.16.29.37
+
+Nmap scan report for 172.16.29.38
+Host is up (0.0017s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49157/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 10:60:4B:87:8E:D6 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized|phone
+Running: Microsoft Windows 2008|8.1|7|Phone|Vista
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_7::-:professional cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1
+OS details: Microsoft Windows Server 2008 R2 or Windows 8.1, Microsoft Windows 7 Professional or Windows 8, Microsoft Windows Embedded Standard 7, Microsoft Windows Phone 7.5 or 8.0, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: Host: DESIGN6; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -4m32s, deviation: 0s, median: -4m32s
+|_nbstat: NetBIOS name: DESIGN6, NetBIOS user: <unknown>, NetBIOS MAC: 10:60:4b:87:8e:d6 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: Design6
+|   NetBIOS computer name: DESIGN6\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:42:40+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:42:41
+|_  start_date: 2021-11-05 07:56:22
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.69 ms 172.16.29.38
+
+Nmap scan report for 172.16.29.39
+Host is up (0.0014s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: F0:92:1C:F0:00:53 (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=34661%PV=Y%DS=1%DC=D%G=Y%M=F0921C%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=108%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)SEQ(SP=102%GCD=3%ISR=108%TI=I%CI=I%II=I%TS=7)OPS(O1=M5B8NW8S
+OS:T11%O2=M5B8NW8ST11%O3=M5B8NW8NNT11%O4=M5B8NW8ST11%O5=M5B8NW8ST11%O6=M5B8
+OS:ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=
+OS:40%W=2000%O=M5B8NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R
+OS:=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=
+OS:AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%
+OS:RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: HP-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 4m55s, deviation: 0s, median: 4m55s
+|_nbstat: NetBIOS name: HP-PC, NetBIOS user: <unknown>, NetBIOS MAC: f0:92:1c:f0:00:53 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: hp-PC
+|   NetBIOS computer name: HP-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:52:08+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:52:08
+|_  start_date: 2021-11-03 08:15:12
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.44 ms 172.16.29.39
+
+Nmap scan report for 172.16.29.40
+Host is up (0.0017s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+MAC Address: A0:D3:C1:24:5D:3F (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone
+Running: Microsoft Windows 2008|8.1|7|Phone|Vista
+OS CPE: cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_7::-:professional cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1
+OS details: Microsoft Windows Server 2008 R2 or Windows 8.1, Microsoft Windows 7 Professional or Windows 8, Microsoft Windows Phone 7.5 or 8.0, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: Host: STU73E59C; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m22s, deviation: 0s, median: -1m22s
+|_nbstat: NetBIOS name: STU73E59C, NetBIOS user: <unknown>, NetBIOS MAC: a0:d3:c1:24:5d:3f (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: stu73e59c
+|   NetBIOS computer name: STU73E59C\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:45:52+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:45:52
+|_  start_date: 2021-11-05 07:59:49
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.70 ms 172.16.29.40
+
+Nmap scan report for 172.16.29.41
+Host is up (0.24s latency).
+All 1000 scanned ports on 172.16.29.41 are filtered
+MAC Address: 94:E6:F7:F8:87:AC (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   242.49 ms 172.16.29.41
+
+Nmap scan report for 172.16.29.42
+Host is up (0.0041s latency).
+All 1000 scanned ports on 172.16.29.42 are closed
+MAC Address: 00:0C:29:4A:93:95 (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.15 ms 172.16.29.42
+
+Nmap scan report for 172.16.29.43
+Host is up (0.0014s latency).
+All 1000 scanned ports on 172.16.29.43 are filtered
+MAC Address: 6C:3B:E5:0B:EA:20 (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.39 ms 172.16.29.43
+
+Nmap scan report for 172.16.29.44
+Host is up (0.0012s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE         VERSION
+443/tcp  open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Fri, 5 Nov 2021 02:39:52 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Fri, 5 Nov 2021 02:39:52 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Date: Fri, 5 Nov 2021 02:39:52 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:40:02 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|     <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|   SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:41:05 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|_    <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2021-07-15T11:15:14
+|_Not valid after:  2022-07-15T11:15:14
+|_ssl-date: TLS randomness does not represent time
+| vmware-version: 
+|   Server version: VMware Workstation 16.1.0
+|   Build: 17198959
+|   Locale version: INTL  
+|   OS type: win32-x86
+|_  Product Line ID: ws
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.60%T=SSL%I=7%D=11/5%Time=61849996%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,139,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x205\
+SF:x20Nov\x202021\x2002:39:52\x20GMT\r\nConnection:\x20close\r\nContent-Se
+SF:curity-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plai
+SF:n;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r
+SF:\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-X
+SF:SS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,13F
+SF:,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Fri,\x205\x20Nov\x
+SF:202021\x2002:39:52\x20GMT\r\nConnection:\x20close\r\nContent-Security-P
+SF:olicy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20ch
+SF:arset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Cont
+SF:ent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Prote
+SF:ction:\x201\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,139,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x205\x20Nov\x202021\x
+SF:2002:39:52\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy:\x
+SF:20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset=ut
+SF:f-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type
+SF:-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x
+SF:201\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,B2,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nDate:\x20Fri,\x205\x20Nov\x202021\x2002:40:02\x2
+SF:0GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-L
+SF:ength:\x2050\r\n\r\n<HTML><BODY><H1>400\x20Bad\x20Request</H1></BODY></
+SF:HTML>")%r(SIPOptions,B2,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x2
+SF:0Fri,\x205\x20Nov\x202021\x2002:41:05\x20GMT\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n<HTML><BODY
+SF:><H1>400\x20Bad\x20Request</H1></BODY></HTML>");
+MAC Address: 90:2E:16:52:6F:E0 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|load balancer|specialized
+Running (JUST GUESSING): Microsoft Windows 2008|7 (91%), Cisco embedded (90%), AVtech embedded (87%)
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (91%), Cisco ACE load balancer (90%), Microsoft Windows 7 (87%), AVtech Room Alert 26W environmental monitor (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.16 ms 172.16.29.44
+
+Nmap scan report for 172.16.29.45
+Host is up (0.0013s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE     VERSION
+135/tcp   open  msrpc       Microsoft Windows RPC
+139/tcp   open  netbios-ssn Microsoft Windows netbios-ssn
+49156/tcp open  msrpc       Microsoft Windows RPC
+49159/tcp open  msrpc       Microsoft Windows RPC
+MAC Address: 74:46:A0:90:58:64 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|phone|specialized
+Running (JUST GUESSING): Microsoft Windows 8|Phone|2008|8.1|7|Vista|2012 (92%)
+OS CPE: cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8.1 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_server_2012
+Aggressive OS guesses: Microsoft Windows 8.1 Update 1 (92%), Microsoft Windows Phone 7.5 or 8.0 (92%), Microsoft Windows Server 2008 R2 (91%), Microsoft Windows Server 2008 R2 or Windows 8.1 (91%), Microsoft Windows Server 2008 R2 SP1 or Windows 8 (91%), Microsoft Windows 7 (91%), Microsoft Windows 7 Professional or Windows 8 (91%), Microsoft Windows 7 SP1 or Windows Server 2008 SP2 or 2008 R2 SP1 (91%), Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7 (91%), Microsoft Windows Vista SP2 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_smb2-security-mode: SMB: Couldn't find a NetBIOS name that works for the server. Sorry!
+|_smb2-time: ERROR: Script execution failed (use -d to debug)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.27 ms 172.16.29.45
+
+Nmap scan report for 172.16.29.47
+Host is up (0.0011s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: D8:50:E6:D2:3A:BF (Asustek Computer)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|7|2008 (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2
+Aggressive OS guesses: Microsoft Windows XP SP2 (87%), Microsoft Windows 7 (85%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-OCVLBL6, NetBIOS user: <unknown>, NetBIOS MAC: d8:50:e6:d2:3a:bf (Asustek Computer)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:46:49
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.11 ms 172.16.29.47
+
+Nmap scan report for 172.16.29.49
+Host is up (0.0013s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+443/tcp  open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Fri, 5 Nov 2021 02:38:20 GMT
+|     Connection: close
+|     Content-Type: text/plain; charset=utf-8
+|     X-Frame-Options: DENY
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Fri, 5 Nov 2021 02:38:20 GMT
+|     Connection: close
+|     Content-Type: text/plain; charset=utf-8
+|     X-Frame-Options: DENY
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Date: Fri, 5 Nov 2021 02:38:20 GMT
+|     Connection: close
+|     Content-Type: text/plain; charset=utf-8
+|     X-Frame-Options: DENY
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:38:30 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|     <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|   SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:39:33 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|_    <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2021-02-21T09:35:40
+|_Not valid after:  2022-02-21T09:35:40
+|_ssl-date: TLS randomness does not represent time
+| vmware-version: 
+|   Server version: VMware Workstation 14.1.3
+|   Build: 9474260
+|   Locale version: INTL  
+|   OS type: win32-x86
+|_  Product Line ID: ws
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1688/tcp open  msrpc           Microsoft Windows RPC
+3389/tcp open  ms-wbt-server   Microsoft Terminal Services
+| ssl-cert: Subject: commonName=WIN10-ww
+| Not valid before: 2021-10-14T11:53:49
+|_Not valid after:  2022-04-15T11:53:49
+|_ssl-date: 2021-11-05T02:43:34+00:00; -2m18s from scanner time.
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.60%T=SSL%I=7%D=11/5%Time=618499A5%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,A4,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x205\x
+SF:20Nov\x202021\x2002:38:20\x20GMT\r\nConnection:\x20close\r\nContent-Typ
+SF:e:\x20text/plain;\x20charset=utf-8\r\nX-Frame-Options:\x20DENY\r\nConte
+SF:nt-Length:\x200\r\n\r\n")%r(HTTPOptions,AA,"HTTP/1\.1\x20501\x20Not\x20
+SF:Implemented\r\nDate:\x20Fri,\x205\x20Nov\x202021\x2002:38:20\x20GMT\r\n
+SF:Connection:\x20close\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r
+SF:\nX-Frame-Options:\x20DENY\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFo
+SF:urRequest,A4,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x205\x2
+SF:0Nov\x202021\x2002:38:20\x20GMT\r\nConnection:\x20close\r\nContent-Type
+SF::\x20text/plain;\x20charset=utf-8\r\nX-Frame-Options:\x20DENY\r\nConten
+SF:t-Length:\x200\r\n\r\n")%r(RTSPRequest,B2,"HTTP/1\.1\x20400\x20Bad\x20R
+SF:equest\r\nDate:\x20Fri,\x205\x20Nov\x202021\x2002:38:30\x20GMT\r\nConne
+SF:ction:\x20close\r\nContent-Type:\x20text/html\r\nContent-Length:\x2050\
+SF:r\n\r\n<HTML><BODY><H1>400\x20Bad\x20Request</H1></BODY></HTML>")%r(SIP
+SF:Options,B2,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Fri,\x205\x2
+SF:0Nov\x202021\x2002:39:33\x20GMT\r\nConnection:\x20close\r\nContent-Type
+SF::\x20text/html\r\nContent-Length:\x2050\r\n\r\n<HTML><BODY><H1>400\x20B
+SF:ad\x20Request</H1></BODY></HTML>");
+MAC Address: 10:60:4B:61:E7:DB (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=40768%PV=Y%DS=1%DC=D%G=Y%M=10604B%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=10A%TI=I%CI=I%II=I
+OS:%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=M
+OS:5B4NW8NNS%O6=M5B4NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70
+OS:)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+
+OS:%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=Y
+OS:%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80
+OS:%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G
+OS:%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2m18s, deviation: 0s, median: -2m18s
+|_nbstat: NetBIOS name: WIN10-WW, NetBIOS user: <unknown>, NetBIOS MAC: 10:60:4b:61:e7:db (Hewlett Packard)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:44:59
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.27 ms 172.16.29.49
+
+Nmap scan report for 172.16.29.50
+Host is up (0.0012s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Windows XP microsoft-ds
+MAC Address: 00:25:11:32:C9:16 (Elitegroup Computer Systems)
+Device type: general purpose
+Running: Microsoft Windows XP
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_xp::sp3
+OS details: Microsoft Windows XP SP2 or SP3
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Host script results:
+|_clock-skew: mean: 34s, deviation: 0s, median: 34s
+|_nbstat: NetBIOS name: FHOMU7SLPMQLX6V, NetBIOS user: <unknown>, NetBIOS MAC: 00:25:11:32:c9:16 (Elitegroup Computer Systems)
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: FHOMU7SLPMQLX6V
+|   NetBIOS computer name: FHOMU7SLPMQLX6V\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:47:51+08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.25 ms 172.16.29.50
+
+Nmap scan report for 172.16.29.51
+Host is up (0.24s latency).
+All 1000 scanned ports on 172.16.29.51 are filtered
+MAC Address: D0:AB:D5:BC:A2:55 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   240.71 ms 172.16.29.51
+
+Nmap scan report for 172.16.29.52
+Host is up (0.00088s latency).
+All 1000 scanned ports on 172.16.29.52 are filtered
+MAC Address: 8C:16:45:B4:3B:E8 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.88 ms 172.16.29.52
+
+Nmap scan report for 172.16.29.53
+Host is up (0.0013s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+49159/tcp open  msrpc        Microsoft Windows RPC
+49160/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 6C:3B:E5:0B:E6:2B (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=42519%PV=Y%DS=1%DC=D%G=Y%M=6C3BE5%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=F9%GCD=1%ISR=F9%TI=I%CI=I%II=I%
+OS:SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST
+OS:11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=200
+OS:0%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80
+OS:%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R
+OS:=N)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%
+OS:A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%
+OS:DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIP
+OS:L=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: AB-202010140949; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 2m19s, deviation: 0s, median: 2m19s
+|_nbstat: NetBIOS name: AB-202010140949, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0b:e6:2b (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: AB-202010140949
+|   NetBIOS computer name: AB-202010140949\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:49:36+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:49:36
+|_  start_date: 2021-11-02 08:48:23
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.25 ms 172.16.29.53
+
+Nmap scan report for 172.16.29.55
+Host is up (0.0016s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+1045/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 6C:3B:E5:0F:9C:87 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running: Microsoft Windows 7|Vista|2008
+OS CPE: cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_vista::sp2 cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008
+OS details: Microsoft Windows Embedded Standard 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: Host: STUA7F423; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -49s, deviation: 0s, median: -49s
+|_nbstat: NetBIOS name: STUA7F423, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0f:9c:87 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: stua7f423
+|   NetBIOS computer name: STUA7F423\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:46:27+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:46:27
+|_  start_date: 2021-11-05 08:14:36
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.60 ms 172.16.29.55
+
+Nmap scan report for 172.16.29.56
+Host is up (0.0013s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 08:2E:5F:16:80:49 (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=41750%PV=Y%DS=1%DC=D%G=Y%M=082E5F%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=108%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)SEQ(SP=103%GCD=1%ISR=108%CI=I%II=I%TS=7)OPS(O1=M5B4NW8ST11%O
+OS:2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST11%O5=M5B4NW8ST11%O6=M5B4ST11)
+OS:WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=40%W=
+OS:2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%
+OS:DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=
+OS:O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF
+OS:=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G
+OS:)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: WIN-BOS9OVL5FJ9; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2m13s, deviation: 0s, median: -2m13s
+|_nbstat: NetBIOS name: WIN-BOS9OVL5FJ9, NetBIOS user: <unknown>, NetBIOS MAC: 08:2e:5f:16:80:49 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: WIN-BOS9OVL5FJ9
+|   NetBIOS computer name: WIN-BOS9OVL5FJ9\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:45:04+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:45:04
+|_  start_date: 2021-11-05 08:13:15
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.26 ms 172.16.29.56
+
+Nmap scan report for 172.16.29.57
+Host is up (0.0011s latency).
+Not shown: 984 closed ports
+PORT     STATE SERVICE      VERSION
+7/tcp    open  echo
+9/tcp    open  discard?
+13/tcp   open  daytime
+| fingerprint-strings: 
+|   NULL: 
+|_    10:41:21 2021/11/5
+17/tcp   open  qotd         Windows qotd (English)
+19/tcp   open  chargen
+21/tcp   open  ftp          FileZilla ftpd
+| ftp-syst: 
+|_  SYST: UNIX emulated by FileZilla
+80/tcp   open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+1025/tcp open  msrpc        Microsoft Windows RPC
+1026/tcp open  msrpc        Microsoft Windows RPC
+1027/tcp open  msrpc        Microsoft Windows RPC
+1028/tcp open  msrpc        Microsoft Windows RPC
+1029/tcp open  msrpc        Microsoft Windows RPC
+5357/tcp open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port13-TCP:V=7.60%I=7%D=11/5%Time=618499D2%P=x86_64-pc-linux-gnu%r(NULL
+SF:,13,"10:41:21\x202021/11/5\n");
+MAC Address: 00:0C:29:15:16:61 (VMware)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: TEST-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+|_nbstat: NetBIOS name: TEST-PC, NetBIOS user: <unknown>, NetBIOS MAC: 00:0c:29:15:16:61 (VMware)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: test-PC
+|   NetBIOS computer name: TEST-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:47:17+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:47:16
+|_  start_date: 2021-11-05 09:30:40
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.10 ms 172.16.29.57
+
+Nmap scan report for 172.16.29.58
+Host is up (0.0017s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 6C:3B:E5:0F:E6:F5 (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: WRGHO-610191440; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m37s, deviation: 0s, median: -1m37s
+|_nbstat: NetBIOS name: WRGHO-610191440, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0f:e6:f5 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: WRGHO-610191440
+|   NetBIOS computer name: WRGHO-610191440\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:45:40+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:45:40
+|_  start_date: 2021-11-05 08:19:12
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.69 ms 172.16.29.58
+
+Nmap scan report for 172.16.29.59
+Host is up (0.00090s latency).
+All 1000 scanned ports on 172.16.29.59 are filtered
+MAC Address: 6C:3B:E5:0B:E7:06 (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.90 ms 172.16.29.59
+
+Nmap scan report for 172.16.29.60
+Host is up (0.015s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 7.5
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: Site doesn't have a title.
+MAC Address: 94:53:30:73:B3:D5 (Hon Hai Precision Ind.)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS details: Microsoft Windows Server 2008 or 2008 Beta 3, Microsoft Windows Server 2008 R2 or Windows 8.1, Microsoft Windows 7 Professional or Windows 8, Microsoft Windows Embedded Standard 7, Microsoft Windows Phone 7.5 or 8.0, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   15.13 ms 172.16.29.60
+
+Nmap scan report for 172.16.29.61
+Host is up (0.0015s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Microsoft IIS httpd 10.0
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Home Page - \xE9\x95\x87\xE6\xB1\x9F\xE5\xB8\x82\xE6\x95\x99\xE8\x82\xB2\xE8\x80\x83\xE8\xAF\x95\xE9\x99\xA2\xE8\x80\x83\xE5\xAE\x98\xE7\xAE\xA1\xE7\x90\x86\xE7\xB3\xBB\xE7\xBB\x9F
+999/tcp  open  webdav
+| fingerprint-strings: 
+|   GenericLines, JavaRMI, SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Length: 16
+|     Content-Type: text/plain
+|     Request
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Content-Length: 14
+|     Content-Type: text/plain
+|     Found
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Allow: GET, POST, HEAD, CONNECT, PUT, DELETE, OPTIONS, PROPFIND, MKCOL
+|_    DAV: 1
+| http-methods: 
+|_  Potentially risky methods: CONNECT PUT DELETE PROPFIND MKCOL
+|_http-title: Site doesn't have a title (text/plain).
+| http-webdav-scan: 
+|   Allowed Methods: GET, POST, HEAD, CONNECT, PUT, DELETE, OPTIONS, PROPFIND, MKCOL
+|_  WebDAV type: Unkown
+5357/tcp open  http        Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+8081/tcp open  webdav
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     Content-Length: 14
+|     Content-Type: text/plain
+|     Found
+|   GenericLines, SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Length: 16
+|     Content-Type: text/plain
+|     Request
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Allow: GET, POST, HEAD, CONNECT, PUT, DELETE, OPTIONS, PROPFIND, MKCOL
+|_    DAV: 1
+| http-methods: 
+|_  Potentially risky methods: CONNECT PUT DELETE PROPFIND MKCOL
+|_http-title: Site doesn't have a title (text/plain).
+| http-webdav-scan: 
+|   Allowed Methods: GET, POST, HEAD, CONNECT, PUT, DELETE, OPTIONS, PROPFIND, MKCOL
+|_  WebDAV type: Unkown
+9000/tcp open  cslistener?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port999-TCP:V=7.60%I=7%D=11/5%Time=618499F6%P=x86_64-pc-linux-gnu%r(Jav
+SF:aRMI,5A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2016\r\
+SF:nContent-Type:\x20text/plain\r\n\r\n400\x20Bad\x20Request\n")%r(Generic
+SF:Lines,5A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2016\r
+SF:\nContent-Type:\x20text/plain\r\n\r\n400\x20Bad\x20Request\n")%r(GetReq
+SF:uest,56,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2014\r\nC
+SF:ontent-Type:\x20text/plain\r\n\r\n404\x20Not\x20Found\n")%r(HTTPOptions
+SF:,63,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x20GET,\x20POST,\x20HEAD,\x20CONN
+SF:ECT,\x20PUT,\x20DELETE,\x20OPTIONS,\x20PROPFIND,\x20MKCOL\r\nDAV:\x201\
+SF:r\n\r\n")%r(SIPOptions,5A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConten
+SF:t-Length:\x2016\r\nContent-Type:\x20text/plain\r\n\r\n400\x20Bad\x20Req
+SF:uest\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8081-TCP:V=7.60%I=7%D=11/5%Time=618499FC%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,56,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2014\
+SF:r\nContent-Type:\x20text/plain\r\n\r\n404\x20Not\x20Found\n")%r(FourOhF
+SF:ourRequest,56,"HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x201
+SF:4\r\nContent-Type:\x20text/plain\r\n\r\n404\x20Not\x20Found\n")%r(SIPOp
+SF:tions,5A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2016\r
+SF:\nContent-Type:\x20text/plain\r\n\r\n400\x20Bad\x20Request\n")%r(Generi
+SF:cLines,5A,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2016\
+SF:r\nContent-Type:\x20text/plain\r\n\r\n400\x20Bad\x20Request\n")%r(HTTPO
+SF:ptions,63,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x20GET,\x20POST,\x20HEAD,\x
+SF:20CONNECT,\x20PUT,\x20DELETE,\x20OPTIONS,\x20PROPFIND,\x20MKCOL\r\nDAV:
+SF:\x201\r\n\r\n");
+MAC Address: 6C:3B:E5:0B:E5:D7 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized
+Running (JUST GUESSING): FreeBSD 6.X|10.X (89%), AVtech embedded (89%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3
+Aggressive OS guesses: FreeBSD 6.2-RELEASE (89%), AVtech Room Alert 26W environmental monitor (89%), FreeBSD 10.3-STABLE (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.50 ms 172.16.29.61
+
+Nmap scan report for 172.16.29.62
+Host is up (0.23s latency).
+All 1000 scanned ports on 172.16.29.62 are filtered
+MAC Address: 58:A0:23:D3:C3:0E (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   231.89 ms 172.16.29.62
+
+Nmap scan report for 172.16.29.63
+Host is up (0.00068s latency).
+All 1000 scanned ports on 172.16.29.63 are filtered
+MAC Address: 3C:7C:3F:5B:57:10 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.68 ms 172.16.29.63
+
+Nmap scan report for 172.16.29.64
+Host is up (0.0023s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: C2:C6:29:20:20:92 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running (JUST GUESSING): AVtech embedded (87%)
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.34 ms 172.16.29.64
+
+Nmap scan report for 172.16.29.65
+Host is up (0.00053s latency).
+All 1000 scanned ports on 172.16.29.65 are filtered
+MAC Address: 9C:7B:EF:44:19:66 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.53 ms 172.16.29.65
+
+Nmap scan report for 172.16.29.66
+Host is up (0.0018s latency).
+All 1000 scanned ports on 172.16.29.66 are filtered
+MAC Address: E8:6A:64:E9:77:A6 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.82 ms 172.16.29.66
+
+Nmap scan report for 172.16.29.67
+Host is up (0.0011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 90:2E:16:B7:68:DF (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=43342%PV=Y%DS=1%DC=D%G=Y%M=902E16%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10B%TI=I%CI=I%II=
+OS:I%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=
+OS:M5B4NW8NNS%O6=M5B4NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF7
+OS:0)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S
+OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=
+OS:Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=8
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: LAPTOP-CSJL6I3D, NetBIOS user: <unknown>, NetBIOS MAC: 90:2e:16:b7:68:df (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:47:09
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.10 ms 172.16.29.67
+
+Nmap scan report for 172.16.29.68
+Host is up (0.0011s latency).
+Not shown: 990 filtered ports
+PORT     STATE SERVICE         VERSION
+21/tcp   open  ftp             Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| 10-18-21  04:33PM       <DIR>          luntan
+| 10-31-21  11:16AM       <DIR>          Games
+| 10-26-21  08:40AM       <DIR>          gcc
+| 11-03-21  07:51PM       <DIR>          iso&vm
+| 10-31-21  10:06AM       <DIR>          log
+| 10-31-21  02:03PM       <DIR>          note
+| 10-29-21  09:41AM       <DIR>          Office Tool
+| 10-25-21  08:46PM       <DIR>          page
+| 10-29-21  10:36AM       <DIR>          Penetration test kit
+| 10-27-21  01:47PM       <DIR>          PersonFile
+| 11-04-21  06:47PM       <DIR>          print
+| 10-19-21  08:42AM       <DIR>          Program
+| 10-31-21  11:07AM                   16 readme.bat
+| 11-01-21  06:50PM       <DIR>          tools
+| 11-04-21  06:46PM       <DIR>          video
+|_10-26-21  01:53PM       <DIR>          zhuxi
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp   open  http            Apache httpd 2.4.39 ((Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02)
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.39 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9a mod_log_rotate/1.02
+|_http-title: \xE7\xBD\x91\xE7\xBB\x9C\xE4\xBF\xA1\xE6\x81\xAF\xE5\xAE\x89\xE5\x85\xA8\xE6\xB5\x8B\xE8\xAF\x95\xE7\xAB\x99\xE7\x82\xB9
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds    Windows 10 Pro for Workstations 19043 microsoft-ds (workgroup: WORKGROUP)
+515/tcp  open  printer         Microsoft lpd
+903/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+3306/tcp open  mysql           MySQL 5.7.26
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.26
+|   Thread ID: 1612
+|   Capabilities flags: 63487
+|   Some Capabilities: LongColumnFlag, LongPassword, SupportsLoadDataLocal, Speaks41ProtocolNew, Support41Auth, Speaks41ProtocolOld, ODBCClient, FoundRows, ConnectWithDatabase, SupportsTransactions, InteractiveClient, IgnoreSpaceBeforeParenthesis, DontAllowDatabaseTableColumn, IgnoreSigpipes, SupportsCompression, SupportsMultipleStatments, SupportsMultipleResults, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: 3|&\x18MPe\x17*\x0Brp\x1D\x11'"0\x19\x18R
+|_  Auth Plugin Name: 79
+3389/tcp open  ms-wbt-server   Microsoft Terminal Services
+| ssl-cert: Subject: commonName=DESKTOP-SKS79H0
+| Not valid before: 2021-09-01T08:24:29
+|_Not valid after:  2022-03-03T08:24:29
+|_ssl-date: 2021-11-05T02:45:32+00:00; -1m22s from scanner time.
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: BC:EE:7B:5B:A5:03 (Asustek Computer)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|7|2008 (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2
+Aggressive OS guesses: Microsoft Windows XP SP2 (87%), Microsoft Windows 7 (85%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: DESKTOP-SKS79H0; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m22s, deviation: 0s, median: -1m22s
+|_nbstat: NetBIOS name: DESKTOP-SKS79H0, NetBIOS user: <unknown>, NetBIOS MAC: bc:ee:7b:5b:a5:03 (Asustek Computer)
+| smb-os-discovery: 
+|   OS: Windows 10 Pro for Workstations 19043 (Windows 10 Pro for Workstations 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: DESKTOP-SKS79H0
+|   NetBIOS computer name: DESKTOP-SKS79H0\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:45:56+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:45:56
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.11 ms 172.16.29.68
+
+Nmap scan report for 172.16.29.69
+Host is up (0.0017s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: 00:E0:4C:36:00:BD (Realtek Semiconductor)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|XP|7 (86%)
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_7
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (86%), Microsoft Windows XP SP2 (85%), Microsoft Windows 7 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: LAPTOP-SI25E1V5, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:36:00:bd (Realtek Semiconductor)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:46:43
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.68 ms 172.16.29.69
+
+Nmap scan report for 172.16.29.70
+Host is up (0.0014s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: 7C:10:C9:AC:C6:1F (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|7|2008 (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2
+Aggressive OS guesses: Microsoft Windows XP SP2 (87%), Microsoft Windows 7 (85%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: LAPTOP-NLEH4D81, NetBIOS user: <unknown>, NetBIOS MAC: 7c:10:c9:ac:c6:1f (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:46:37
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.42 ms 172.16.29.70
+
+Nmap scan report for 172.16.29.71
+Host is up (0.0015s latency).
+All 1000 scanned ports on 172.16.29.71 are filtered
+MAC Address: 00:E0:4D:68:00:78 (Internet Initiative Japan)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.49 ms 172.16.29.71
+
+Nmap scan report for 172.16.29.72
+Host is up (0.00056s latency).
+All 1000 scanned ports on 172.16.29.72 are filtered
+MAC Address: F8:E4:3B:2C:70:EF (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.56 ms 172.16.29.72
+
+Nmap scan report for 172.16.29.73
+Host is up (0.0012s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+808/tcp  open  mc-nmf        .NET Message Framing
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+9001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+MAC Address: 00:2B:67:39:5D:45 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=35935%PV=Y%DS=1%DC=D%G=Y%M=002B67%
+OS:TM=61849CA0%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10C%TI=I%CI=I%II=
+OS:I%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=
+OS:M5B4NW8NNS%O6=M5B4NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF7
+OS:0)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S
+OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=4
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: WIN-9TJRU5CMREU, NetBIOS user: <unknown>, NetBIOS MAC: 00:2b:67:39:5d:45 (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:46:50
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.15 ms 172.16.29.73
+
+Nmap scan report for 172.16.29.74
+Host is up (0.0012s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  wsdapi?
+MAC Address: 8C:8C:AA:20:D4:36 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-N7445U7, NetBIOS user: <unknown>, NetBIOS MAC: 8c:8c:aa:20:d4:36 (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:35
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.19 ms 172.16.29.74
+
+Nmap scan report for 172.16.29.75
+Host is up (0.0019s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  wsdapi?
+MAC Address: 00:E0:4C:68:16:51 (Realtek Semiconductor)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (87%), Microsoft Windows XP (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%), Microsoft Windows XP SP2 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.95 ms 172.16.29.75
+
+Nmap scan report for 172.16.29.76
+Host is up (0.0015s latency).
+All 1000 scanned ports on 172.16.29.76 are filtered
+MAC Address: 00:E0:4C:36:07:02 (Realtek Semiconductor)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.49 ms 172.16.29.76
+
+Nmap scan report for 172.16.29.77
+Host is up (0.0011s latency).
+All 1000 scanned ports on 172.16.29.77 are filtered
+MAC Address: 6C:3B:E5:0B:E6:F8 (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.09 ms 172.16.29.77
+
+Nmap scan report for 172.16.29.78
+Host is up (0.0011s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3389/tcp open  ssl?          Microsoft SChannel TLS
+| fingerprint-strings: 
+|   TLSSessionReq: 
+|     jBw4
+|     `kMR
+|     DESKTOP-ARU883F0
+|     210830013523Z
+|     220301013523Z0
+|     DESKTOP-ARU883F0
+|     \xa6
+|     FHCg6 
+|     <K`c
+|     /p_H-l
+|     $0"0
+|     p=%E
+|     Idci
+|     ~s$1
+|_    .ZS0,
+| ssl-cert: Subject: commonName=DESKTOP-ARU883F
+| Not valid before: 2021-08-30T01:35:23
+|_Not valid after:  2022-03-01T01:35:23
+|_ssl-date: 2021-11-05T02:57:42+00:00; -36s from scanner time.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3389-TCP:V=7.60%I=7%D=11/5%Time=61849CDD%P=x86_64-pc-linux-gnu%r(TL
+SF:SSessionReq,34A,"\x16\x03\x03\x03E\x02\0\0M\x03\x03a\x84\x9c\xb5\xff\x9
+SF:d\xbejBw4\xed\xf7\xdb\xf1\xa7\xe8\xcb\xac\xd0S\xdb\xe1\xff\xd2`kMR\xfd\
+SF:xb0\xf9\x20\[\x03\0\0\x9a\xc4J\x01\x98\xef\x98\x1cN`!\xd78\xb7\^\xa2\x0
+SF:3\"\xbd\(\xb9\xdb~Y\xe9f0\x0c\0/\0\0\x05\xff\x01\0\x01\0\x0b\0\x02\xec\
+SF:0\x02\xe9\0\x02\xe60\x82\x02\xe20\x82\x01\xca\xa0\x03\x02\x01\x02\x02\x
+SF:10/\x800bl\xdc\x89\xb7MP\xb9\xf6\xd0p\x83@0\r\x06\t\*\x86H\x86\xf7\r\x0
+SF:1\x01\x0b\x05\x000\x1a1\x180\x16\x06\x03U\x04\x03\x13\x0fDESKTOP-ARU883
+SF:F0\x1e\x17\r210830013523Z\x17\r220301013523Z0\x1a1\x180\x16\x06\x03U\x0
+SF:4\x03\x13\x0fDESKTOP-ARU883F0\x82\x01\"0\r\x06\t\*\x86H\x86\xf7\r\x01\x
+SF:01\x01\x05\0\x03\x82\x01\x0f\x000\x82\x01\n\x02\x82\x01\x01\0\xbe%\xba\
+SF:x1e\xda;\x02@\x1b\\\xa6\x88\xd4\xf5}\?\xc9t%\xed\xea\x16\x05\$\x01\xaa\
+SF:x0c\xdc\xc7Z\|\x0c\t\x8bS\x7f\.\xbc\xbe\x91\x95\x95\x99\xf2\x12yd\x97\x
+SF:c1\x14\x0e\xfcX\x1d\x13\x1b\xf2\x16\x92Nc\xfa\x9a\xb6=\xcc\x89\x9c\[\x9
+SF:ek\x99j\xa9\x20CJ\xb7nTA\xcf9\xd3\xa9\xa4LB\xb4K\xb0\)\x8a\xd0\xba\xec\
+SF:|\xac\x15\x17\x99\xee\x83\x8a\xd0\x88\xe4\0\xde\x89\xc4FHCg6\t\xd6\xe7\
+SF:xa2w\xdcw\xdc\xd4U~E\xa7\xe7\x08\xdf\xa3\x83J\x07\xcc_\xa1\x18GIs\x9c\x
+SF:92\?\xe8\xe8s\$\xb0<K`c\x8c\n\xb2\xe5\x11\x98\x86\xb8/p_H-l\xef\xf5\xa9
+SF:\xa6\x7f\x01\xb8\x04T\x8cf\xc2\xa0\"\x8b\xc0\x04g\xc6\x9fv\xf7\xd0B,\xe
+SF:8\xe8\xe2\x08\)\xccT\x02\xec\x10\xe4\xde\*\x12\x01\x1c\tA\x9d\x0c\xa3\x
+SF:02\xd3\xa0\^\x9b\xfa68\x16\xe9\xb5\x20\x0f\xf9\xbd\x8a\x91\x18h\xba\x14
+SF:l\xab\xf8\xcfE\.B\0,w\xe6h\x92\x85\xb9\xc9wl\xf8e\x02\x03\x01\0\x01\xa3
+SF:\$0\"0\x13\x06\x03U\x1d%\x04\x0c0\n\x06\x08\+\x06\x01\x05\x05\x07\x03\x
+SF:010\x0b\x06\x03U\x1d\x0f\x04\x04\x03\x02\x0400\r\x06\t\*\x86H\x86\xf7\r
+SF:\x01\x01\x0b\x05\0\x03\x82\x01\x01\0D\x95\t\xcc\xc7\xf3\x18\xb1\x87\n\x
+SF:ae\x8a\xfa\x98=hg\xf0\^\x03\(\x07gT\xccT\xa1\xca\xde\xc3\x98\xfe\x06\"\
+SF:xdb\]oZ\xff\xff\x15#o>\x97X\x10\xa8\*\xbd\x81\xa0\xecM@U\x0c\xf7g\xec\r
+SF:\xc6D\xd6\x10t\x1d\xda\*\x14K\xd1\xb9\xddkF\x01\xa9\xdc\t\xce\xb6\xf1'\
+SF:xca~xe\xadw\xf2\x8e\x91/\xa0\xe0<X\x0f\x9e\xbb\xe2\t\xa8lj\xaaP}\$\xaaa
+SF:\x0f\xaf\x9d\x1f\xb6\xa6\x9fp=%E\xda\xfe\xfc\xc8\xd2p\xc9\xc9\x9c=\xf99
+SF:\xb8I\x95\x11F\xeaO\xc0Idci\xcd\xfa~s\$1\xd6\xe4K\x08\$>\xfb\x15\xbc\x9
+SF:1\xf4\xd8_7\x18\x20\xb7\rL\xd09\xce;\xd3N\xb9X\xdb\.ZS0,\x13\*\xe3\]\xd
+SF:ci\x03X\x0f{,\xe3/\xe6\x9a\xa2\xe6\x04\xcc\x9ds~\.\x03>\xf0\xf5\xe2g\x0
+SF:58\x1dFR\xba4\x91\x99\x1c!N\xfa\xab\xa2V\x94\x7f\x0b\(\xd3\x18Xi\xbd\xb
+SF:2\x06\xa60\xc45\x8e_5\xaet1\xf1\xdc\x20\x94\x0e\0\0\0");
+MAC Address: D4:C9:EF:EF:E7:E2 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -36s, deviation: 0s, median: -36s
+|_nbstat: NetBIOS name: DESKTOP-ARU883F, NetBIOS user: <unknown>, NetBIOS MAC: d4:c9:ef:ef:e7:e2 (Hewlett Packard)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:28
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.12 ms 172.16.29.78
+
+Nmap scan report for 172.16.29.79
+Host is up (0.0013s latency).
+All 1000 scanned ports on 172.16.29.79 are filtered
+MAC Address: 00:E0:99:00:05:FE (Samson AG)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.29 ms 172.16.29.79
+
+Nmap scan report for 172.16.29.80
+Host is up (0.0044s latency).
+All 1000 scanned ports on 172.16.29.80 are filtered
+MAC Address: F8:B4:6A:D7:FA:21 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.37 ms 172.16.29.80
+
+Nmap scan report for 172.16.29.81
+Host is up (0.0012s latency).
+All 1000 scanned ports on 172.16.29.81 are filtered
+MAC Address: 70:85:C2:80:14:DE (ASRock Incorporation)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.16 ms 172.16.29.81
+
+Nmap scan report for 172.16.29.82
+Host is up (0.0025s latency).
+Not shown: 996 closed ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds?
+10082/tcp open  amandaidx?
+MAC Address: 00:E0:4C:36:2F:B5 (Realtek Semiconductor)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=34864%PV=Y%DS=1%DC=D%G=Y%M=00E04C%
+OS:TM=61849E6E%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=108%TI=I%CI=I%II=
+OS:I%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=
+OS:M5B4NW8NNS%O6=M5B4NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF7
+OS:0)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S
+OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=
+OS:Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=8
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: LAPTOP-6A37MJJL, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:36:2f:b5 (Realtek Semiconductor)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:57:47
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.51 ms 172.16.29.82
+
+Nmap scan report for 172.16.29.83
+Host is up (0.0013s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE      VERSION
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+MAC Address: 40:A8:F0:4C:29:B9 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 7|8|Vista|2008
+OS CPE: cpe:/o:microsoft:windows_7::-:professional cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_vista::- cpe:/o:microsoft:windows_vista::sp1 cpe:/o:microsoft:windows_server_2008::sp1
+OS details: Microsoft Windows 7 Professional or Windows 8, Microsoft Windows Vista SP0 or SP1, Windows Server 2008 SP1, or Windows 7, Microsoft Windows Vista SP2, Windows 7 SP1, or Windows Server 2008
+Network Distance: 1 hop
+Service Info: Host: PC-20131028RBRH; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2m00s, deviation: 0s, median: -2m00s
+|_nbstat: NetBIOS name: PC-20131028RBRH, NetBIOS user: <unknown>, NetBIOS MAC: 40:a8:f0:4c:29:b9 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: PC-20131028RBRH
+|   NetBIOS computer name: PC-20131028RBRH\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:56:44+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:56:27
+|_  start_date: 2021-11-05 08:32:42
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.26 ms 172.16.29.83
+
+Nmap scan report for 172.16.29.85
+Host is up (0.0068s latency).
+All 1000 scanned ports on 172.16.29.85 are filtered
+MAC Address: 40:F0:2F:50:54:DE (Liteon Technology)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.82 ms 172.16.29.85
+
+Nmap scan report for 172.16.29.86
+Host is up (0.0012s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  wsdapi?
+MAC Address: 90:2E:16:7B:1F:5B (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (87%), Microsoft Windows XP (87%), FreeBSD 6.X|10.X (86%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%), Microsoft Windows XP SP2 (87%), FreeBSD 6.2-RELEASE (86%), FreeBSD 10.3-STABLE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.17 ms 172.16.29.86
+
+Nmap scan report for 172.16.29.87
+Host is up (0.00079s latency).
+All 1000 scanned ports on 172.16.29.87 are filtered
+MAC Address: FC:34:97:94:1B:B6 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.79 ms 172.16.29.87
+
+Nmap scan report for 172.16.29.88
+Host is up (0.0011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: B0:25:AA:44:48:C2 (Private)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=37786%PV=Y%DS=1%DC=D%G=Y%M=B025AA%
+OS:TM=61849E6E%P=x86_64-pc-linux-gnu)SEQ(SP=109%GCD=1%ISR=109%TI=I%CI=I%II=
+OS:I%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=
+OS:M5B4NW8NNS%O6=M5B4NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF7
+OS:0)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S
+OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=
+OS:Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=8
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-CANUTL9, NetBIOS user: <unknown>, NetBIOS MAC: b0:25:aa:44:48:c2 (Private)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:57:55
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.12 ms 172.16.29.88
+
+Nmap scan report for 172.16.29.89
+Host is up (0.00067s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: 00:24:32:23:B5:B0 (Neostar Technology)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|7|2008 (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2
+Aggressive OS guesses: Microsoft Windows XP SP2 (87%), Microsoft Windows 7 (85%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: LAPTOP-N796SM2G, NetBIOS user: <unknown>, NetBIOS MAC: 00:24:32:23:b5:b0 (Neostar Technology)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:31
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.67 ms 172.16.29.89
+
+Nmap scan report for 172.16.29.91
+Host is up (0.00072s latency).
+All 1000 scanned ports on 172.16.29.91 are filtered
+MAC Address: 90:2E:16:33:1A:D4 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.71 ms 172.16.29.91
+
+Nmap scan report for 172.16.29.92
+Host is up (0.0012s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 2C:44:FD:0D:A5:32 (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: WRGHO-606271626; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -36s, deviation: 0s, median: -36s
+|_nbstat: NetBIOS name: WRGHO-606271626, NetBIOS user: <unknown>, NetBIOS MAC: 2c:44:fd:0d:a5:32 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: WRGHO-606271626
+|   NetBIOS computer name: WRGHO-606271626\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:58:28+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:09
+|_  start_date: 2021-11-05 08:40:27
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.22 ms 172.16.29.92
+
+Nmap scan report for 172.16.29.93
+Host is up (0.0022s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  tcpwrapped
+445/tcp  open  microsoft-ds?
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: F8:75:A4:24:D4:49 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|7|2008 (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2
+Aggressive OS guesses: Microsoft Windows XP SP2 (87%), Microsoft Windows 7 (85%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-5S8UG4E, NetBIOS user: <unknown>, NetBIOS MAC: f8:75:a4:24:d4:49 (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:14
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.16 ms 172.16.29.93
+
+Nmap scan report for 172.16.29.94
+Host is up (0.0019s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE          VERSION
+8082/tcp open  blackice-alerts?
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 400 Error 
+|     Server: QQ/1.0.0 (Tencent) 
+|     Content-Length: 18
+|     Connection: close
+|_    unkown the request
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8082-TCP:V=7.60%I=7%D=11/5%Time=61849CED%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20
+SF:\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\
+SF:nunkown\x20the\x20request")%r(FourOhFourRequest,6D,"HTTP/1\.1\x20400\x2
+SF:0Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Lengt
+SF:h:\x2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(Ge
+SF:nericLines,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x
+SF:20\(Tencent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\
+SF:r\nunkown\x20the\x20request")%r(HTTPOptions,6D,"HTTP/1\.1\x20400\x20Err
+SF:or\x20\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x
+SF:2018\r\nConnection:\x20close\r\n\r\nunkown\x20the\x20request")%r(RTSPRe
+SF:quest,6D,"HTTP/1\.1\x20400\x20Error\x20\r\nServer:\x20QQ/1\.0\.0\x20\(T
+SF:encent\)\x20\r\nContent-Length:\x2018\r\nConnection:\x20close\r\n\r\nun
+SF:kown\x20the\x20request")%r(SIPOptions,6D,"HTTP/1\.1\x20400\x20Error\x20
+SF:\r\nServer:\x20QQ/1\.0\.0\x20\(Tencent\)\x20\r\nContent-Length:\x2018\r
+SF:\nConnection:\x20close\r\n\r\nunkown\x20the\x20request");
+MAC Address: 10:60:4B:87:8E:5B (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: load balancer|general purpose|specialized|firewall
+Running (JUST GUESSING): Cisco embedded (90%), Microsoft Windows 2008|7 (89%), AVtech embedded (87%), Juniper embedded (85%)
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_7 cpe:/h:juniper:networks_ssg_20
+Aggressive OS guesses: Cisco ACE load balancer (90%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (89%), Microsoft Windows 7 (87%), AVtech Room Alert 26W environmental monitor (87%), Juniper Networks SSG 20 firewall (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.88 ms 172.16.29.94
+
+Nmap scan report for 172.16.29.95
+Host is up (0.0015s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 8C:8C:AA:48:F3:11 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=31416%PV=Y%DS=1%DC=D%G=Y%M=8C8CAA%
+OS:TM=61849E6E%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=I%CI=I%II=
+OS:I%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=
+OS:M5B4NW8NNS%O6=M5B4NNS)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF7
+OS:0)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S
+OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=
+OS:Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=8
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-CRG0OOR, NetBIOS user: <unknown>, NetBIOS MAC: 8c:8c:aa:48:f3:11 (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:42
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.51 ms 172.16.29.95
+
+Nmap scan report for 172.16.29.96
+Host is up (0.19s latency).
+All 1000 scanned ports on 172.16.29.96 are filtered
+MAC Address: 14:5A:FC:1F:CB:71 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   194.40 ms 172.16.29.96
+
+Nmap scan report for 172.16.29.97
+Host is up (0.0017s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE      VERSION
+21/tcp    open  tcpwrapped
+53/tcp    open  domain       Microsoft DNS 6.1.7601
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB1446A)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 00:0C:29:6F:AC:1E (VMware)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m43s, deviation: 0s, median: -1m43s
+| smb-os-discovery: 
+|   OS: Windows Server 2008 R2 Standard 7601 Service Pack 1 (Windows Server 2008 R2 Standard 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: WIN-F7GCLLVN3B7
+|   NetBIOS computer name: WIN-F7GCLLVN3B7\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:57:23+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:57:29
+|_  start_date: 2021-11-05 08:04:19
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.66 ms 172.16.29.97
+
+Nmap scan report for 172.16.29.98
+Host is up (0.0012s latency).
+All 1000 scanned ports on 172.16.29.98 are filtered
+MAC Address: 90:2E:16:9F:FF:3D (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.17 ms 172.16.29.98
+
+Nmap scan report for 172.16.29.99
+Host is up (0.00097s latency).
+Not shown: 986 closed ports
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+139/tcp   open  netbios-ssn     Microsoft Windows netbios-ssn
+443/tcp   open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Fri, 5 Nov 2021 02:53:03 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Fri, 5 Nov 2021 02:53:03 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Date: Fri, 5 Nov 2021 02:53:03 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:53:13 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|     <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|   SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:54:16 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|_    <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2021-10-12T01:39:04
+|_Not valid after:  2022-10-12T01:39:04
+|_ssl-date: TLS randomness does not represent time
+445/tcp   open  microsoft-ds    Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+3389/tcp  open  ms-wbt-server   Microsoft Terminal Service
+| ssl-cert: Subject: commonName=PC-20210308NSEK
+| Not valid before: 2021-10-29T06:46:05
+|_Not valid after:  2022-04-30T06:46:05
+|_ssl-date: 2021-11-05T02:56:37+00:00; -1m42s from scanner time.
+49152/tcp open  msrpc           Microsoft Windows RPC
+49153/tcp open  msrpc           Microsoft Windows RPC
+49154/tcp open  msrpc           Microsoft Windows RPC
+49155/tcp open  msrpc           Microsoft Windows RPC
+49157/tcp open  unknown
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Cache-Control: no-cache
+|     Content-Type: application/json
+|     Content-Length: 46
+|_    {"success":false,"msg":"Verification failure"}
+49158/tcp open  msrpc           Microsoft Windows RPC
+49161/tcp open  msrpc           Microsoft Windows RPC
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.60%T=SSL%I=7%D=11/5%Time=61849CF4%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,139,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x205\
+SF:x20Nov\x202021\x2002:53:03\x20GMT\r\nConnection:\x20close\r\nContent-Se
+SF:curity-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plai
+SF:n;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r
+SF:\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-X
+SF:SS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,13F
+SF:,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Fri,\x205\x20Nov\x
+SF:202021\x2002:53:03\x20GMT\r\nConnection:\x20close\r\nContent-Security-P
+SF:olicy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20ch
+SF:arset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Cont
+SF:ent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Prote
+SF:ction:\x201\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,139,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x205\x20Nov\x202021\x
+SF:2002:53:03\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy:\x
+SF:20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset=ut
+SF:f-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type
+SF:-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x
+SF:201\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,B2,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nDate:\x20Fri,\x205\x20Nov\x202021\x2002:53:13\x2
+SF:0GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-L
+SF:ength:\x2050\r\n\r\n<HTML><BODY><H1>400\x20Bad\x20Request</H1></BODY></
+SF:HTML>")%r(SIPOptions,B2,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x2
+SF:0Fri,\x205\x20Nov\x202021\x2002:54:16\x20GMT\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n<HTML><BODY
+SF:><H1>400\x20Bad\x20Request</H1></BODY></HTML>");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49157-TCP:V=7.60%I=7%D=11/5%Time=61849CF9%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,8E,"HTTP/1\.1\x20200\x20OK\r\nCache-Control:\x20no-cache\r\nC
+SF:ontent-Type:\x20application/json\r\nContent-Length:\x2046\r\n\r\n{\"suc
+SF:cess\":false,\"msg\":\"Verification\x20failure\"}")%r(HTTPOptions,8E,"H
+SF:TTP/1\.1\x20200\x20OK\r\nCache-Control:\x20no-cache\r\nContent-Type:\x2
+SF:0application/json\r\nContent-Length:\x2046\r\n\r\n{\"success\":false,\"
+SF:msg\":\"Verification\x20failure\"}")%r(FourOhFourRequest,8E,"HTTP/1\.1\
+SF:x20200\x20OK\r\nCache-Control:\x20no-cache\r\nContent-Type:\x20applicat
+SF:ion/json\r\nContent-Length:\x2046\r\n\r\n{\"success\":false,\"msg\":\"V
+SF:erification\x20failure\"}");
+MAC Address: 6C:3B:E5:0F:D8:B4 (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: PC-20210308NSEK; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1m42s, deviation: 0s, median: -1m42s
+|_nbstat: NetBIOS name: PC-20210308NSEK, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0f:d8:b4 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: PC-20210308NSEK
+|   NetBIOS computer name: PC-20210308NSEK\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:57:14+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:57:13
+|_  start_date: 2021-11-05 08:47:57
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.97 ms 172.16.29.99
+
+Nmap scan report for 172.16.29.100
+Host is up (0.0014s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 2C:44:FD:0D:99:CD (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|XP (86%)
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_xp::sp2
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (86%), Microsoft Windows XP SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-OQEKR74, NetBIOS user: <unknown>, NetBIOS MAC: 2c:44:fd:0d:99:cd (Hewlett Packard)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:57:34
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.37 ms 172.16.29.100
+
+Nmap scan report for 172.16.29.102
+Host is up (0.0010s latency).
+All 1000 scanned ports on 172.16.29.102 are filtered
+MAC Address: 90:2E:16:7B:33:FD (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.04 ms 172.16.29.102
+
+Nmap scan report for 172.16.29.104
+Host is up (0.00080s latency).
+All 1000 scanned ports on 172.16.29.104 are filtered
+MAC Address: 80:FA:5B:90:14:E5 (Clevo)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.80 ms 172.16.29.104
+
+Nmap scan report for 172.16.29.105
+Host is up (0.0013s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE       VERSION
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+MAC Address: 18:C0:4D:60:A0:53 (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2008|XP (86%)
+OS CPE: cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_xp::sp2
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (86%), Microsoft Windows XP SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-UQHCUBA, NetBIOS user: <unknown>, NetBIOS MAC: 18:c0:4d:60:a0:53 (unknown)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:59:19
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.27 ms 172.16.29.105
+
+Nmap scan report for 172.16.29.106
+Host is up (0.0040s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+443/tcp  open  ssl/http     VMware VirtualCenter Web service
+|_http-title: Site doesn't have a title (text; charset=plain).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2018-04-27T00:57:23
+|_Not valid after:  2019-04-27T00:57:23
+|_ssl-date: 2021-11-05T15:40:42+00:00; +12h41m36s from scanner time.
+| vmware-version: 
+|   Server version: VMware Workstation 10.0.0
+|   Build: 1295980
+|   Locale version: INTL  
+|   OS type: win32-x86
+|_  Product Line ID: ws
+445/tcp  open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+902/tcp  open  nagios-nsca  Nagios NSCA
+912/tcp  open  vmware-auth  VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1025/tcp open  msrpc        Microsoft Windows RPC
+1026/tcp open  msrpc        Microsoft Windows RPC
+1027/tcp open  msrpc        Microsoft Windows RPC
+1031/tcp open  msrpc        Microsoft Windows RPC
+1102/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 6C:3B:E5:0B:F6:D5 (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=31322%PV=Y%DS=1%DC=D%G=Y%M=6C3BE5%
+OS:TM=61849E6E%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=109%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8
+OS:ST11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2
+OS:000%W6=2000)ECN(R=Y%DF=Y%T=40%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=
+OS:40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3
+OS:(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%R
+OS:IPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: 7NTFK4WDF8J82OD; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 12h41m35s, deviation: 0s, median: 12h41m35s
+|_nbstat: NetBIOS name: 7NTFK4WDF8J82OD, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0b:f6:d5 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: 7NTFK4WDF8J82OD
+|   NetBIOS computer name: 7NTFK4WDF8J82OD\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T23:40:41+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 23:40:40
+|_  start_date: 2021-11-05 21:39:40
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.95 ms 172.16.29.106
+
+Nmap scan report for 172.16.29.107
+Host is up (0.0014s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+2869/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: 08:97:98:E8:AC:2E (Unknown)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (87%), Microsoft Windows XP (87%), FreeBSD 6.X|10.X (86%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%), Microsoft Windows XP SP2 (87%), FreeBSD 6.2-RELEASE (86%), FreeBSD 10.3-STABLE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.39 ms 172.16.29.107
+
+Nmap scan report for 172.16.29.110
+Host is up (0.0012s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WorkGroup)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 2C:44:FD:0B:76:6D (Hewlett Packard)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008:r2:sp1 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1
+Network Distance: 1 hop
+Service Info: Host: AB-201912041111; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -39s, deviation: 0s, median: -39s
+|_nbstat: NetBIOS name: AB-201912041111, NetBIOS user: <unknown>, NetBIOS MAC: 2c:44:fd:0b:76:6d (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: AB-201912041111
+|   NetBIOS computer name: AB-201912041111\x00
+|   Workgroup: WorkGroup\x00
+|_  System time: 2021-11-05T10:58:25+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:25
+|_  start_date: 2021-11-03 13:31:37
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.20 ms 172.16.29.110
+
+Nmap scan report for 172.16.29.111
+Host is up (0.0010s latency).
+Not shown: 990 closed ports
+PORT     STATE SERVICE      VERSION
+80/tcp   open  http         Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: IIS7
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Windows 7 Ultimate 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+1025/tcp open  msrpc        Microsoft Windows RPC
+1026/tcp open  msrpc        Microsoft Windows RPC
+1027/tcp open  msrpc        Microsoft Windows RPC
+1028/tcp open  msrpc        Microsoft Windows RPC
+1032/tcp open  msrpc        Microsoft Windows RPC
+1057/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 6C:3B:E5:0B:F8:A6 (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=80%CT=1%CU=30687%PV=Y%DS=1%DC=D%G=Y%M=6C3BE5%T
+OS:M=61849E6E%P=x86_64-pc-linux-gnu)SEQ(SP=F3%GCD=2%ISR=111%TI=I%CI=I%II=I%
+OS:SS=S%TS=7)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4=M5B4NW8ST
+OS:11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=200
+OS:0%W6=2000)ECN(R=Y%DF=Y%T=40%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=40
+OS:%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R
+OS:=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%
+OS:A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%
+OS:DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIP
+OS:L=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: STUA7F09C; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -6m46s, deviation: 0s, median: -6m46s
+| ms-sql-info: 
+|   Windows server name: stua7f09c
+|   172.16.29.111\SQLEXPRESS: 
+|     Instance name: SQLEXPRESS
+|     Version: 
+|       name: Microsoft SQL Server 2005 SP4
+|       Product: Microsoft SQL Server 2005
+|       Service pack level: SP4
+|     Clustered: false
+|   172.16.29.111\MSSQLSERVER: 
+|     Instance name: MSSQLSERVER
+|     Version: 
+|       name: Microsoft SQL Server 2005 SP4
+|       Product: Microsoft SQL Server 2005
+|       Service pack level: SP4
+|_    Clustered: false
+|_nbstat: NetBIOS name: STUA7F09C, NetBIOS user: <unknown>, NetBIOS MAC: 6c:3b:e5:0b:f8:a6 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate 7601 Service Pack 1 (Windows 7 Ultimate 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: stua7f09c
+|   NetBIOS computer name: STUA7F09C\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:52:19+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:52:19
+|_  start_date: 2021-11-04 10:56:17
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.01 ms 172.16.29.111
+
+Nmap scan report for 172.16.29.112
+Host is up (0.0013s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: 6C:3B:E5:0F:D4:EC (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (87%), Microsoft Windows XP (87%), FreeBSD 6.X|10.X (86%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:freebsd:freebsd:6.2 cpe:/o:freebsd:freebsd:10.3
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (87%), Microsoft Windows XP SP2 (87%), FreeBSD 6.2-RELEASE (86%), FreeBSD 10.3-STABLE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.32 ms 172.16.29.112
+
+Nmap scan report for 172.16.29.113
+Host is up (0.0013s latency).
+All 1000 scanned ports on 172.16.29.113 are closed
+MAC Address: 00:0C:29:DE:7F:A2 (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.34 ms 172.16.29.113
+
+Nmap scan report for 172.16.29.117
+Host is up (0.0013s latency).
+All 1000 scanned ports on 172.16.29.117 are filtered
+MAC Address: 8C:8C:AA:7C:31:04 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.29 ms 172.16.29.117
+
+Nmap scan report for 172.16.29.120
+Host is up (0.0015s latency).
+All 1000 scanned ports on 172.16.29.120 are filtered
+MAC Address: 84:A9:3E:07:A8:86 (Unknown)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.52 ms 172.16.29.120
+
+Nmap scan report for 172.16.29.121
+Host is up (0.00059s latency).
+All 1000 scanned ports on 172.16.29.121 are filtered
+MAC Address: 88:51:FB:6A:BF:55 (Hewlett Packard)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.58 ms 172.16.29.121
+
+Nmap scan report for 172.16.29.122
+Host is up (0.0012s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: 80:FA:5B:86:7E:5E (Clevo)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING): AVtech embedded (89%), FreeBSD 6.X (85%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: AVtech Room Alert 26W environmental monitor (89%), FreeBSD 6.2-RELEASE (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.19 ms 172.16.29.122
+
+Nmap scan report for 172.16.29.124
+Host is up (0.00094s latency).
+Not shown: 994 closed ports
+PORT    STATE SERVICE         VERSION
+135/tcp open  msrpc           Microsoft Windows RPC
+139/tcp open  netbios-ssn     Microsoft Windows netbios-ssn
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Fri, 5 Nov 2021 02:55:31 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     Date: Fri, 5 Nov 2021 02:55:31 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Date: Fri, 5 Nov 2021 02:55:31 GMT
+|     Connection: close
+|     Content-Security-Policy: block-all-mixed-content
+|     Content-Type: text/plain; charset=utf-8
+|     Strict-Transport-Security: max-age=31536000
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: DENY
+|     X-XSS-Protection: 1
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:55:42 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|     <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|   SIPOptions: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 5 Nov 2021 02:56:44 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     Content-Length: 50
+|_    <HTML><BODY><H1>400 Bad Request</H1></BODY></HTML>
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=VMware/countryName=US
+| Not valid before: 2021-10-06T00:37:27
+|_Not valid after:  2022-10-06T00:37:27
+|_ssl-date: TLS randomness does not represent time
+445/tcp open  microsoft-ds?
+902/tcp open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.60%T=SSL%I=7%D=11/5%Time=61849D3B%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,139,"HTTP/1\.1\x20403\x20Forbidden\r\nDate:\x20Fri,\x205\
+SF:x20Nov\x202021\x2002:55:31\x20GMT\r\nConnection:\x20close\r\nContent-Se
+SF:curity-Policy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plai
+SF:n;\x20charset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r
+SF:\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-X
+SF:SS-Protection:\x201\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,13F
+SF:,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nDate:\x20Fri,\x205\x20Nov\x
+SF:202021\x2002:55:31\x20GMT\r\nConnection:\x20close\r\nContent-Security-P
+SF:olicy:\x20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20ch
+SF:arset=utf-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Cont
+SF:ent-Type-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Prote
+SF:ction:\x201\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRequest,139,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Fri,\x205\x20Nov\x202021\x
+SF:2002:55:31\x20GMT\r\nConnection:\x20close\r\nContent-Security-Policy:\x
+SF:20block-all-mixed-content\r\nContent-Type:\x20text/plain;\x20charset=ut
+SF:f-8\r\nStrict-Transport-Security:\x20max-age=31536000\r\nX-Content-Type
+SF:-Options:\x20nosniff\r\nX-Frame-Options:\x20DENY\r\nX-XSS-Protection:\x
+SF:201\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,B2,"HTTP/1\.1\x2040
+SF:0\x20Bad\x20Request\r\nDate:\x20Fri,\x205\x20Nov\x202021\x2002:55:42\x2
+SF:0GMT\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\nContent-L
+SF:ength:\x2050\r\n\r\n<HTML><BODY><H1>400\x20Bad\x20Request</H1></BODY></
+SF:HTML>")%r(SIPOptions,B2,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x2
+SF:0Fri,\x205\x20Nov\x202021\x2002:56:44\x20GMT\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/html\r\nContent-Length:\x2050\r\n\r\n<HTML><BODY
+SF:><H1>400\x20Bad\x20Request</H1></BODY></HTML>");
+MAC Address: 2C:53:4A:03:8A:89 (Shenzhen Winyao Electronic Limited)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.60%E=4%D=11/5%OT=135%CT=1%CU=38948%PV=Y%DS=1%DC=D%G=Y%M=2C534A%
+OS:TM=61849E6E%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=108%TI=I%CI=I%II=
+OS:I%SS=S%TS=U)OPS(O1=M5B4NW8NNS%O2=M5B4NW8NNS%O3=M5B4NW8%O4=M5B4NW8NNS%O5=
+OS:M5B4NW8NNS%O6=M5B4NNS)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=200
+OS:0)ECN(R=Y%DF=Y%T=80%W=2000%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S
+OS:+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=N)T4(R=
+OS:Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=8
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: DESKTOP-U70AP06, NetBIOS user: <unknown>, NetBIOS MAC: 2c:53:4a:03:8a:89 (Shenzhen Winyao Electronic Limited)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:41
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.94 ms 172.16.29.124
+
+Nmap scan report for 172.16.29.125
+Host is up (0.0021s latency).
+All 1000 scanned ports on 172.16.29.125 are filtered
+MAC Address: 18:DB:F2:31:CE:EE (Dell)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.11 ms 172.16.29.125
+
+Nmap scan report for 172.16.29.128
+Host is up (0.0013s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Windows 10 Pro 18363 microsoft-ds (workgroup: WORKGROUP)
+1801/tcp open  msmq?
+2103/tcp open  msrpc        Microsoft Windows RPC
+2105/tcp open  msrpc        Microsoft Windows RPC
+2107/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: D4:C9:EF:F2:AF:C3 (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows XP|2008 (87%)
+OS CPE: cpe:/o:microsoft:windows_xp::sp2 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2
+Aggressive OS guesses: Microsoft Windows XP SP2 (87%), Microsoft Windows Server 2008 SP1 or Windows Server 2008 R2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: HP-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -11s, deviation: 0s, median: -11s
+|_nbstat: NetBIOS name: HP-PC, NetBIOS user: <unknown>, NetBIOS MAC: d4:c9:ef:f2:af:c3 (Hewlett Packard)
+| smb-os-discovery: 
+|   OS: Windows 10 Pro 18363 (Windows 10 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: hp-PC
+|   NetBIOS computer name: HP-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-11-05T10:58:54+08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-11-05 10:58:59
+|_  start_date: 1601-01-01 08:05:43
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.32 ms 172.16.29.128
+
+Nmap scan report for 172.16.29.146
+Host is up (0.0015s latency).
+All 1000 scanned ports on 172.16.29.146 are filtered
+MAC Address: 10:BE:F5:8E:39:36 (D-Link International)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.49 ms 172.16.29.146
+
+Nmap scan report for 172.16.29.208
+Host is up (0.0025s latency).
+All 1000 scanned ports on 172.16.29.208 are filtered
+MAC Address: 00:0C:29:37:E8:91 (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.46 ms 172.16.29.208
+
+Nmap scan report for 172.16.29.251
+Host is up (0.0013s latency).
+All 1000 scanned ports on 172.16.29.251 are filtered
+MAC Address: F4:EC:38:20:FA:6B (Tp-link Technologies)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.30 ms 172.16.29.251
+
+Nmap scan report for 172.16.29.115
+Host is up (0.000046s latency).
+All 1000 scanned ports on 172.16.29.115 are closed
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+Post-scan script results:
+| clock-skew: 
+|   -1m22s: 
+|     172.16.29.40
+|     172.16.29.4
+|     172.16.29.68
+|   -36s: 
+|     172.16.29.92
+|_    172.16.29.78
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (109 hosts up) scanned in 2422.74 seconds
