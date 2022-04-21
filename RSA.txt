@@ -1,0 +1,13 @@
+import gmpy2
+p = 
+q = 
+dp = 
+dq = 
+c = 
+I = gmpy2.invert(q,p)
+m1 = pow(c,dp,p)
+m2 = pow(c,dq,q)
+m = (((m1-m2)*I)%p)*q+m2
+print(m)                               #10进制明文
+print(hex(m)[2:])                      #16进制明文
+print(bytes.fromhex(hex(m)[2:]))       #16进制转文本
